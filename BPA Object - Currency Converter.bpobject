@@ -1,0 +1,1150 @@
+﻿<process name="Currency Converter" version="1.0" bpversion="6.9.0.26970" narrative="XE Currency Converter" byrefcollection="true" type="object" runmode="Exclusive" preferredid="7b3d0f41-01a6-491b-9522-fa2b91f1baad">
+  <appdef>
+    <element name="Currency Converter">
+      <id>29b9818c-0ad4-426b-9aa6-4831bf0a2b6e</id>
+      <group name="Launch">
+        <id>8daaafa5-670b-4aae-9790-3360abdf4de0</id>
+      </group>
+      <element name="Amount">
+        <id>308ab60e-1c69-4142-bf8a-4cc2b739cdc6</id>
+        <type>WebTextEdit</type>
+        <basetype>WebTextEdit</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="wX">
+            <ProcessValue datatype="number" value="209" />
+          </attribute>
+          <attribute name="wY">
+            <ProcessValue datatype="number" value="347" />
+          </attribute>
+          <attribute name="wWidth">
+            <ProcessValue datatype="number" value="263" />
+          </attribute>
+          <attribute name="wHeight">
+            <ProcessValue datatype="number" value="60" />
+          </attribute>
+          <attribute name="wClientX">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="wClientY">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="wClientWidth">
+            <ProcessValue datatype="number" value="259" />
+          </attribute>
+          <attribute name="wClientHeight">
+            <ProcessValue datatype="number" value="56" />
+          </attribute>
+          <attribute name="wOffsetX">
+            <ProcessValue datatype="number" value="210" />
+          </attribute>
+          <attribute name="wOffsetY">
+            <ProcessValue datatype="number" value="257" />
+          </attribute>
+          <attribute name="wOffsetWidth">
+            <ProcessValue datatype="number" value="263" />
+          </attribute>
+          <attribute name="wOffsetHeight">
+            <ProcessValue datatype="number" value="60" />
+          </attribute>
+          <attribute name="wScrollX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wScrollY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wScrollWidth">
+            <ProcessValue datatype="number" value="259" />
+          </attribute>
+          <attribute name="wScrollHeight">
+            <ProcessValue datatype="number" value="56" />
+          </attribute>
+          <attribute name="wId" inuse="True">
+            <ProcessValue datatype="text" value="amount" />
+          </attribute>
+          <attribute name="wName" inuse="True">
+            <ProcessValue datatype="text" value="Amount" />
+          </attribute>
+          <attribute name="wElementType" inuse="True">
+            <ProcessValue datatype="text" value="INPUT" />
+          </attribute>
+          <attribute name="wXPath" inuse="True">
+            <ProcessValue datatype="text" value="/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/MAIN[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/FORM[1]/DIV[1]/INPUT[1]" />
+          </attribute>
+          <attribute name="wCssSelector">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wValue">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPageAddress">
+            <ProcessValue datatype="text" value="https://www.xe.com/currencyconverter/convert/?Amount=1&amp;From=EUR&amp;To=INR" />
+          </attribute>
+          <attribute name="wClass">
+            <ProcessValue datatype="text" value="AmountField-jcNifw gwdqEd focus-visible" />
+          </attribute>
+          <attribute name="wChildCount">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wIsEditable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="wStyle">
+            <ProcessValue datatype="text" value="{&quot;alignContent&quot;:&quot;&quot;,&quot;alignItems&quot;:&quot;&quot;,&quot;alignSelf&quot;:&quot;&quot;,&quot;alignmentBaseline&quot;:&quot;&quot;,&quot;all&quot;:&quot;&quot;,&quot;animation&quot;:&quot;&quot;,&quot;animationDelay&quot;:&quot;&quot;,&quot;animationDirection&quot;:&quot;&quot;,&quot;animationDuration&quot;:&quot;&quot;,&quot;animationFillMode&quot;:&quot;&quot;,&quot;animationIterationCount&quot;:&quot;&quot;,&quot;animationName&quot;:&quot;&quot;,&quot;animationPlayState&quot;:&quot;&quot;,&quot;animationTimingFunction&quot;:&quot;&quot;,&quot;appearance&quot;:&quot;&quot;,&quot;backdropFilter&quot;:&quot;&quot;,&quot;backfaceVisibility&quot;:&quot;&quot;,&quot;background&quot;:&quot;&quot;,&quot;backgroundAttachment&quot;:&quot;&quot;,&quot;backgroundBlendMode&quot;:&quot;&quot;,&quot;backgroundClip&quot;:&quot;&quot;,&quot;backgroundColor&quot;:&quot;&quot;,&quot;backgroundImage&quot;:&quot;&quot;,&quot;backgroundOrigin&quot;:&quot;&quot;,&quot;backgroundPosition&quot;:&quot;&quot;,&quot;backgroundPositionX&quot;:&quot;&quot;,&quot;backgroundPositionY&quot;:&quot;&quot;,&quot;backgroundRepeat&quot;:&quot;&quot;,&quot;backgroundRepeatX&quot;:&quot;&quot;,&quot;backgroundRepeatY&quot;:&quot;&quot;,&quot;backgroundSize&quot;:&quot;&quot;,&quot;baselineShift&quot;:&quot;&quot;,&quot;blockSize&quot;:&quot;&quot;,&quot;border&quot;:&quot;&quot;,&quot;borderBlockEnd&quot;:&quot;&quot;,&quot;borderBlockEndColor&quot;:&quot;&quot;,&quot;borderBlockEndStyle&quot;:&quot;&quot;,&quot;borderBlockEndWidth&quot;:&quot;&quot;,&quot;borderBlockStart&quot;:&quot;&quot;,&quot;borderBlockStartColor&quot;:&quot;&quot;,&quot;borderBlockStartStyle&quot;:&quot;&quot;,&quot;borderBlockStartWidth&quot;:&quot;&quot;,&quot;borderBottom&quot;:&quot;&quot;,&quot;borderBottomColor&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;borderBottomStyle&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderCollapse&quot;:&quot;&quot;,&quot;borderColor&quot;:&quot;&quot;,&quot;borderImage&quot;:&quot;&quot;,&quot;borderImageOutset&quot;:&quot;&quot;,&quot;borderImageRepeat&quot;:&quot;&quot;,&quot;borderImageSlice&quot;:&quot;&quot;,&quot;borderImageSource&quot;:&quot;&quot;,&quot;borderImageWidth&quot;:&quot;&quot;,&quot;borderInlineEnd&quot;:&quot;&quot;,&quot;borderInlineEndColor&quot;:&quot;&quot;,&quot;borderInlineEndStyle&quot;:&quot;&quot;,&quot;borderInlineEndWidth&quot;:&quot;&quot;,&quot;borderInlineStart&quot;:&quot;&quot;,&quot;borderInlineStartColor&quot;:&quot;&quot;,&quot;borderInlineStartStyle&quot;:&quot;&quot;,&quot;borderInlineStartWidth&quot;:&quot;&quot;,&quot;borderLeft&quot;:&quot;&quot;,&quot;borderLeftColor&quot;:&quot;&quot;,&quot;borderLeftStyle&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRadius&quot;:&quot;&quot;,&quot;borderRight&quot;:&quot;&quot;,&quot;borderRightColor&quot;:&quot;&quot;,&quot;borderRightStyle&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderSpacing&quot;:&quot;&quot;,&quot;borderStyle&quot;:&quot;&quot;,&quot;borderTop&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;&quot;,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderTopStyle&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderWidth&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;&quot;,&quot;boxSizing&quot;:&quot;&quot;,&quot;breakAfter&quot;:&quot;&quot;,&quot;breakBefore&quot;:&quot;&quot;,&quot;breakInside&quot;:&quot;&quot;,&quot;bufferedRendering&quot;:&quot;&quot;,&quot;captionSide&quot;:&quot;&quot;,&quot;caretColor&quot;:&quot;&quot;,&quot;clear&quot;:&quot;&quot;,&quot;clip&quot;:&quot;&quot;,&quot;clipPath&quot;:&quot;&quot;,&quot;clipRule&quot;:&quot;&quot;,&quot;color&quot;:&quot;&quot;,&quot;colorInterpolation&quot;:&quot;&quot;,&quot;colorInterpolationFilters&quot;:&quot;&quot;,&quot;colorRendering&quot;:&quot;&quot;,&quot;colorScheme&quot;:&quot;&quot;,&quot;columnCount&quot;:&quot;&quot;,&quot;columnFill&quot;:&quot;&quot;,&quot;columnGap&quot;:&quot;&quot;,&quot;columnRule&quot;:&quot;&quot;,&quot;columnRuleColor&quot;:&quot;&quot;,&quot;columnRuleStyle&quot;:&quot;&quot;,&quot;columnRuleWidth&quot;:&quot;&quot;,&quot;columnSpan&quot;:&quot;&quot;,&quot;columnWidth&quot;:&quot;&quot;,&quot;columns&quot;:&quot;&quot;,&quot;contain&quot;:&quot;&quot;,&quot;containIntrinsicSize&quot;:&quot;&quot;,&quot;content&quot;:&quot;&quot;,&quot;contentVisibility&quot;:&quot;&quot;,&quot;counterIncrement&quot;:&quot;&quot;,&quot;counterReset&quot;:&quot;&quot;,&quot;counterSet&quot;:&quot;&quot;,&quot;cursor&quot;:&quot;&quot;,&quot;cx&quot;:&quot;&quot;,&quot;cy&quot;:&quot;&quot;,&quot;d&quot;:&quot;&quot;,&quot;direction&quot;:&quot;&quot;,&quot;display&quot;:&quot;&quot;,&quot;dominantBaseline&quot;:&quot;&quot;,&quot;emptyCells&quot;:&quot;&quot;,&quot;fill&quot;:&quot;&quot;,&quot;fillOpacity&quot;:&quot;&quot;,&quot;fillRule&quot;:&quot;&quot;,&quot;filter&quot;:&quot;&quot;,&quot;flex&quot;:&quot;&quot;,&quot;flexBasis&quot;:&quot;&quot;,&quot;flexDirection&quot;:&quot;&quot;,&quot;flexFlow&quot;:&quot;&quot;,&quot;flexGrow&quot;:&quot;&quot;,&quot;flexShrink&quot;:&quot;&quot;,&quot;flexWrap&quot;:&quot;&quot;,&quot;float&quot;:&quot;&quot;,&quot;floodColor&quot;:&quot;&quot;,&quot;floodOpacity&quot;:&quot;&quot;,&quot;font&quot;:&quot;&quot;,&quot;fontDisplay&quot;:&quot;&quot;,&quot;fontFamily&quot;:&quot;&quot;,&quot;fontFeatureSettings&quot;:&quot;&quot;,&quot;fontKerning&quot;:&quot;&quot;,&quot;fontOpticalSizing&quot;:&quot;&quot;,&quot;fontSize&quot;:&quot;&quot;,&quot;fontStretch&quot;:&quot;&quot;,&quot;fontStyle&quot;:&quot;&quot;,&quot;fontVariant&quot;:&quot;&quot;,&quot;fontVariantCaps&quot;:&quot;&quot;,&quot;fontVariantEastAsian&quot;:&quot;&quot;,&quot;fontVariantLigatures&quot;:&quot;&quot;,&quot;fontVariantNumeric&quot;:&quot;&quot;,&quot;fontVariationSettings&quot;:&quot;&quot;,&quot;fontWeight&quot;:&quot;&quot;,&quot;gap&quot;:&quot;&quot;,&quot;grid&quot;:&quot;&quot;,&quot;gridArea&quot;:&quot;&quot;,&quot;gridAutoColumns&quot;:&quot;&quot;,&quot;gridAutoFlow&quot;:&quot;&quot;,&quot;gridAutoRows&quot;:&quot;&quot;,&quot;gridColumn&quot;:&quot;&quot;,&quot;gridColumnEnd&quot;:&quot;&quot;,&quot;gridColumnGap&quot;:&quot;&quot;,&quot;gridColumnStart&quot;:&quot;&quot;,&quot;gridGap&quot;:&quot;&quot;,&quot;gridRow&quot;:&quot;&quot;,&quot;gridRowEnd&quot;:&quot;&quot;,&quot;gridRowGap&quot;:&quot;&quot;,&quot;gridRowStart&quot;:&quot;&quot;,&quot;gridTemplate&quot;:&quot;&quot;,&quot;gridTemplateAreas&quot;:&quot;&quot;,&quot;gridTemplateColumns&quot;:&quot;&quot;,&quot;gridTemplateRows&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;hyphens&quot;:&quot;&quot;,&quot;imageOrientation&quot;:&quot;&quot;,&quot;imageRendering&quot;:&quot;&quot;,&quot;inherits&quot;:&quot;&quot;,&quot;initialValue&quot;:&quot;&quot;,&quot;inlineSize&quot;:&quot;&quot;,&quot;isolation&quot;:&quot;&quot;,&quot;justifyContent&quot;:&quot;&quot;,&quot;justifyItems&quot;:&quot;&quot;,&quot;justifySelf&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;letterSpacing&quot;:&quot;&quot;,&quot;lightingColor&quot;:&quot;&quot;,&quot;lineBreak&quot;:&quot;&quot;,&quot;lineHeight&quot;:&quot;&quot;,&quot;listStyle&quot;:&quot;&quot;,&quot;listStyleImage&quot;:&quot;&quot;,&quot;listStylePosition&quot;:&quot;&quot;,&quot;listStyleType&quot;:&quot;&quot;,&quot;margin&quot;:&quot;&quot;,&quot;marginBlockEnd&quot;:&quot;&quot;,&quot;marginBlockStart&quot;:&quot;&quot;,&quot;marginBottom&quot;:&quot;&quot;,&quot;marginInlineEnd&quot;:&quot;&quot;,&quot;marginInlineStart&quot;:&quot;&quot;,&quot;marginLeft&quot;:&quot;&quot;,&quot;marginRight&quot;:&quot;&quot;,&quot;marginTop&quot;:&quot;&quot;,&quot;marker&quot;:&quot;&quot;,&quot;markerEnd&quot;:&quot;&quot;,&quot;markerMid&quot;:&quot;&quot;,&quot;markerStart&quot;:&quot;&quot;,&quot;mask&quot;:&quot;&quot;,&quot;maskType&quot;:&quot;&quot;,&quot;maxBlockSize&quot;:&quot;&quot;,&quot;maxHeight&quot;:&quot;&quot;,&quot;maxInlineSize&quot;:&quot;&quot;,&quot;maxWidth&quot;:&quot;&quot;,&quot;maxZoom&quot;:&quot;&quot;,&quot;minBlockSize&quot;:&quot;&quot;,&quot;minHeight&quot;:&quot;&quot;,&quot;minInlineSize&quot;:&quot;&quot;,&quot;minWidth&quot;:&quot;&quot;,&quot;minZoom&quot;:&quot;&quot;,&quot;mixBlendMode&quot;:&quot;&quot;,&quot;objectFit&quot;:&quot;&quot;,&quot;objectPosition&quot;:&quot;&quot;,&quot;offset&quot;:&quot;&quot;,&quot;offsetDistance&quot;:&quot;&quot;,&quot;offsetPath&quot;:&quot;&quot;,&quot;offsetRotate&quot;:&quot;&quot;,&quot;opacity&quot;:&quot;&quot;,&quot;order&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;&quot;,&quot;orphans&quot;:&quot;&quot;,&quot;outline&quot;:&quot;&quot;,&quot;outlineColor&quot;:&quot;&quot;,&quot;outlineOffset&quot;:&quot;&quot;,&quot;outlineStyle&quot;:&quot;&quot;,&quot;outlineWidth&quot;:&quot;&quot;,&quot;overflow&quot;:&quot;&quot;,&quot;overflowAnchor&quot;:&quot;&quot;,&quot;overflowWrap&quot;:&quot;&quot;,&quot;overflowX&quot;:&quot;&quot;,&quot;overflowY&quot;:&quot;&quot;,&quot;overscrollBehavior&quot;:&quot;&quot;,&quot;overscrollBehaviorBlock&quot;:&quot;&quot;,&quot;overscrollBehaviorInline&quot;:&quot;&quot;,&quot;overscrollBehaviorX&quot;:&quot;&quot;,&quot;overscrollBehaviorY&quot;:&quot;&quot;,&quot;padding&quot;:&quot;&quot;,&quot;paddingBlockEnd&quot;:&quot;&quot;,&quot;paddingBlockStart&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingInlineEnd&quot;:&quot;&quot;,&quot;paddingInlineStart&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;paddingTop&quot;:&quot;&quot;,&quot;page&quot;:&quot;&quot;,&quot;pageBreakAfter&quot;:&quot;&quot;,&quot;pageBreakBefore&quot;:&quot;&quot;,&quot;pageBreakInside&quot;:&quot;&quot;,&quot;pageOrientation&quot;:&quot;&quot;,&quot;paintOrder&quot;:&quot;&quot;,&quot;perspective&quot;:&quot;&quot;,&quot;perspectiveOrigin&quot;:&quot;&quot;,&quot;placeContent&quot;:&quot;&quot;,&quot;placeItems&quot;:&quot;&quot;,&quot;placeSelf&quot;:&quot;&quot;,&quot;pointerEvents&quot;:&quot;&quot;,&quot;position&quot;:&quot;&quot;,&quot;quotes&quot;:&quot;&quot;,&quot;r&quot;:&quot;&quot;,&quot;resize&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;rowGap&quot;:&quot;&quot;,&quot;rubyPosition&quot;:&quot;&quot;,&quot;rx&quot;:&quot;&quot;,&quot;ry&quot;:&quot;&quot;,&quot;scrollBehavior&quot;:&quot;&quot;,&quot;scrollMargin&quot;:&quot;&quot;,&quot;scrollMarginBlock&quot;:&quot;&quot;,&quot;scrollMarginBlockEnd&quot;:&quot;&quot;,&quot;scrollMarginBlockStart&quot;:&quot;&quot;,&quot;scrollMarginBottom&quot;:&quot;&quot;,&quot;scrollMarginInline&quot;:&quot;&quot;,&quot;scrollMarginInlineEnd&quot;:&quot;&quot;,&quot;scrollMarginInlineStart&quot;:&quot;&quot;,&quot;scrollMarginLeft&quot;:&quot;&quot;,&quot;scrollMarginRight&quot;:&quot;&quot;,&quot;scrollMarginTop&quot;:&quot;&quot;,&quot;scrollPadding&quot;:&quot;&quot;,&quot;scrollPaddingBlock&quot;:&quot;&quot;,&quot;scrollPaddingBlockEnd&quot;:&quot;&quot;,&quot;scrollPaddingBlockStart&quot;:&quot;&quot;,&quot;scrollPaddingBottom&quot;:&quot;&quot;,&quot;scrollPaddingInline&quot;:&quot;&quot;,&quot;scrollPaddingInlineEnd&quot;:&quot;&quot;,&quot;scrollPaddingInlineStart&quot;:&quot;&quot;,&quot;scrollPaddingLeft&quot;:&quot;&quot;,&quot;scrollPaddingRight&quot;:&quot;&quot;,&quot;scrollPaddingTop&quot;:&quot;&quot;,&quot;scrollSnapAlign&quot;:&quot;&quot;,&quot;scrollSnapStop&quot;:&quot;&quot;,&quot;scrollSnapType&quot;:&quot;&quot;,&quot;shapeImageThreshold&quot;:&quot;&quot;,&quot;shapeMargin&quot;:&quot;&quot;,&quot;shapeOutside&quot;:&quot;&quot;,&quot;shapeRendering&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;,&quot;speak&quot;:&quot;&quot;,&quot;src&quot;:&quot;&quot;,&quot;stopColor&quot;:&quot;&quot;,&quot;stopOpacity&quot;:&quot;&quot;,&quot;stroke&quot;:&quot;&quot;,&quot;strokeDasharray&quot;:&quot;&quot;,&quot;strokeDashoffset&quot;:&quot;&quot;,&quot;strokeLinecap&quot;:&quot;&quot;,&quot;strokeLinejoin&quot;:&quot;&quot;,&quot;strokeMiterlimit&quot;:&quot;&quot;,&quot;strokeOpacity&quot;:&quot;&quot;,&quot;strokeWidth&quot;:&quot;&quot;,&quot;syntax&quot;:&quot;&quot;,&quot;tabSize&quot;:&quot;&quot;,&quot;tableLayout&quot;:&quot;&quot;,&quot;textAlign&quot;:&quot;&quot;,&quot;textAlignLast&quot;:&quot;&quot;,&quot;textAnchor&quot;:&quot;&quot;,&quot;textCombineUpright&quot;:&quot;&quot;,&quot;textDecoration&quot;:&quot;&quot;,&quot;textDecorationColor&quot;:&quot;&quot;,&quot;textDecorationLine&quot;:&quot;&quot;,&quot;textDecorationSkipInk&quot;:&quot;&quot;,&quot;textDecorationStyle&quot;:&quot;&quot;,&quot;textIndent&quot;:&quot;&quot;,&quot;textOrientation&quot;:&quot;&quot;,&quot;textOverflow&quot;:&quot;&quot;,&quot;textRendering&quot;:&quot;&quot;,&quot;textShadow&quot;:&quot;&quot;,&quot;textSizeAdjust&quot;:&quot;&quot;,&quot;textTransform&quot;:&quot;&quot;,&quot;textUnderlinePosition&quot;:&quot;&quot;,&quot;top&quot;:&quot;&quot;,&quot;touchAction&quot;:&quot;&quot;,&quot;transform&quot;:&quot;&quot;,&quot;transformBox&quot;:&quot;&quot;,&quot;transformOrigin&quot;:&quot;&quot;,&quot;transformStyle&quot;:&quot;&quot;,&quot;transition&quot;:&quot;&quot;,&quot;transitionDelay&quot;:&quot;&quot;,&quot;transitionDuration&quot;:&quot;&quot;,&quot;transitionProperty&quot;:&quot;&quot;,&quot;transitionTimingFunction&quot;:&quot;&quot;,&quot;unicodeBidi&quot;:&quot;&quot;,&quot;unicodeRange&quot;:&quot;&quot;,&quot;userSelect&quot;:&quot;&quot;,&quot;userZoom&quot;:&quot;&quot;,&quot;vectorEffect&quot;:&quot;&quot;,&quot;verticalAlign&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;&quot;,&quot;webkitAlignContent&quot;:&quot;&quot;,&quot;webkitAlignItems&quot;:&quot;&quot;,&quot;webkitAlignSelf&quot;:&quot;&quot;,&quot;webkitAnimation&quot;:&quot;&quot;,&quot;webkitAnimationDelay&quot;:&quot;&quot;,&quot;webkitAnimationDirection&quot;:&quot;&quot;,&quot;webkitAnimationDuration&quot;:&quot;&quot;,&quot;webkitAnimationFillMode&quot;:&quot;&quot;,&quot;webkitAnimationIterationCount&quot;:&quot;&quot;,&quot;webkitAnimationName&quot;:&quot;&quot;,&quot;webkitAnimationPlayState&quot;:&quot;&quot;,&quot;webkitAnimationTimingFunction&quot;:&quot;&quot;,&quot;webkitAppRegion&quot;:&quot;&quot;,&quot;webkitAppearance&quot;:&quot;&quot;,&quot;webkitBackfaceVisibility&quot;:&quot;&quot;,&quot;webkitBackgroundClip&quot;:&quot;&quot;,&quot;webkitBackgroundOrigin&quot;:&quot;&quot;,&quot;webkitBackgroundSize&quot;:&quot;&quot;,&quot;webkitBorderAfter&quot;:&quot;&quot;,&quot;webkitBorderAfterColor&quot;:&quot;&quot;,&quot;webkitBorderAfterStyle&quot;:&quot;&quot;,&quot;webkitBorderAfterWidth&quot;:&quot;&quot;,&quot;webkitBorderBefore&quot;:&quot;&quot;,&quot;webkitBorderBeforeColor&quot;:&quot;&quot;,&quot;webkitBorderBeforeStyle&quot;:&quot;&quot;,&quot;webkitBorderBeforeWidth&quot;:&quot;&quot;,&quot;webkitBorderBottomLeftRadius&quot;:&quot;&quot;,&quot;webkitBorderBottomRightRadius&quot;:&quot;&quot;,&quot;webkitBorderEnd&quot;:&quot;&quot;,&quot;webkitBorderEndColor&quot;:&quot;&quot;,&quot;webkitBorderEndStyle&quot;:&quot;&quot;,&quot;webkitBorderEndWidth&quot;:&quot;&quot;,&quot;webkitBorderHorizontalSpacing&quot;:&quot;&quot;,&quot;webkitBorderImage&quot;:&quot;&quot;,&quot;webkitBorderRadius&quot;:&quot;&quot;,&quot;webkitBorderStart&quot;:&quot;&quot;,&quot;webkitBorderStartColor&quot;:&quot;&quot;,&quot;webkitBorderStartStyle&quot;:&quot;&quot;,&quot;webkitBorderStartWidth&quot;:&quot;&quot;,&quot;webkitBorderTopLeftRadius&quot;:&quot;&quot;,&quot;webkitBorderTopRightRadius&quot;:&quot;&quot;,&quot;webkitBorderVerticalSpacing&quot;:&quot;&quot;,&quot;webkitBoxAlign&quot;:&quot;&quot;,&quot;webkitBoxDecorationBreak&quot;:&quot;&quot;,&quot;webkitBoxDirection&quot;:&quot;&quot;,&quot;webkitBoxFlex&quot;:&quot;&quot;,&quot;webkitBoxOrdinalGroup&quot;:&quot;&quot;,&quot;webkitBoxOrient&quot;:&quot;&quot;,&quot;webkitBoxPack&quot;:&quot;&quot;,&quot;webkitBoxReflect&quot;:&quot;&quot;,&quot;webkitBoxShadow&quot;:&quot;&quot;,&quot;webkitBoxSizing&quot;:&quot;&quot;,&quot;webkitClipPath&quot;:&quot;&quot;,&quot;webkitColumnBreakAfter&quot;:&quot;&quot;,&quot;webkitColumnBreakBefore&quot;:&quot;&quot;,&quot;webkitColumnBreakInside&quot;:&quot;&quot;,&quot;webkitColumnCount&quot;:&quot;&quot;,&quot;webkitColumnGap&quot;:&quot;&quot;,&quot;webkitColumnRule&quot;:&quot;&quot;,&quot;webkitColumnRuleColor&quot;:&quot;&quot;,&quot;webkitColumnRuleStyle&quot;:&quot;&quot;,&quot;webkitColumnRuleWidth&quot;:&quot;&quot;,&quot;webkitColumnSpan&quot;:&quot;&quot;,&quot;webkitColumnWidth&quot;:&quot;&quot;,&quot;webkitColumns&quot;:&quot;&quot;,&quot;webkitFilter&quot;:&quot;&quot;,&quot;webkitFlex&quot;:&quot;&quot;,&quot;webkitFlexBasis&quot;:&quot;&quot;,&quot;webkitFlexDirection&quot;:&quot;&quot;,&quot;webkitFlexFlow&quot;:&quot;&quot;,&quot;webkitFlexGrow&quot;:&quot;&quot;,&quot;webkitFlexShrink&quot;:&quot;&quot;,&quot;webkitFlexWrap&quot;:&quot;&quot;,&quot;webkitFontFeatureSettings&quot;:&quot;&quot;,&quot;webkitFontSizeDelta&quot;:&quot;&quot;,&quot;webkitFontSmoothing&quot;:&quot;&quot;,&quot;webkitHighlight&quot;:&quot;&quot;,&quot;webkitHyphenateCharacter&quot;:&quot;&quot;,&quot;webkitJustifyContent&quot;:&quot;&quot;,&quot;webkitLineBreak&quot;:&quot;&quot;,&quot;webkitLineClamp&quot;:&quot;&quot;,&quot;webkitLocale&quot;:&quot;&quot;,&quot;webkitLogicalHeight&quot;:&quot;&quot;,&quot;webkitLogicalWidth&quot;:&quot;&quot;,&quot;webkitMarginAfter&quot;:&quot;&quot;,&quot;webkitMarginBefore&quot;:&quot;&quot;,&quot;webkitMarginEnd&quot;:&quot;&quot;,&quot;webkitMarginStart&quot;:&quot;&quot;,&quot;webkitMask&quot;:&quot;&quot;,&quot;webkitMaskBoxImage&quot;:&quot;&quot;,&quot;webkitMaskBoxImageOutset&quot;:&quot;&quot;,&quot;webkitMaskBoxImageRepeat&quot;:&quot;&quot;,&quot;webkitMaskBoxImageSlice&quot;:&quot;&quot;,&quot;webkitMaskBoxImageSource&quot;:&quot;&quot;,&quot;webkitMaskBoxImageWidth&quot;:&quot;&quot;,&quot;webkitMaskClip&quot;:&quot;&quot;,&quot;webkitMaskComposite&quot;:&quot;&quot;,&quot;webkitMaskImage&quot;:&quot;&quot;,&quot;webkitMaskOrigin&quot;:&quot;&quot;,&quot;webkitMaskPosition&quot;:&quot;&quot;,&quot;webkitMaskPositionX&quot;:&quot;&quot;,&quot;webkitMaskPositionY&quot;:&quot;&quot;,&quot;webkitMaskRepeat&quot;:&quot;&quot;,&quot;webkitMaskRepeatX&quot;:&quot;&quot;,&quot;webkitMaskRepeatY&quot;:&quot;&quot;,&quot;webkitMaskSize&quot;:&quot;&quot;,&quot;webkitMaxLogicalHeight&quot;:&quot;&quot;,&quot;webkitMaxLogicalWidth&quot;:&quot;&quot;,&quot;webkitMinLogicalHeight&quot;:&quot;&quot;,&quot;webkitMinLogicalWidth&quot;:&quot;&quot;,&quot;webkitOpacity&quot;:&quot;&quot;,&quot;webkitOrder&quot;:&quot;&quot;,&quot;webkitPaddingAfter&quot;:&quot;&quot;,&quot;webkitPaddingBefore&quot;:&quot;&quot;,&quot;webkitPaddingEnd&quot;:&quot;&quot;,&quot;webkitPaddingStart&quot;:&quot;&quot;,&quot;webkitPerspective&quot;:&quot;&quot;,&quot;webkitPerspectiveOrigin&quot;:&quot;&quot;,&quot;webkitPerspectiveOriginX&quot;:&quot;&quot;,&quot;webkitPerspectiveOriginY&quot;:&quot;&quot;,&quot;webkitPrintColorAdjust&quot;:&quot;&quot;,&quot;webkitRtlOrdering&quot;:&quot;&quot;,&quot;webkitRubyPosition&quot;:&quot;&quot;,&quot;webkitShapeImageThreshold&quot;:&quot;&quot;,&quot;webkitShapeMargin&quot;:&quot;&quot;,&quot;webkitShapeOutside&quot;:&quot;&quot;,&quot;webkitTapHighlightColor&quot;:&quot;&quot;,&quot;webkitTextCombine&quot;:&quot;&quot;,&quot;webkitTextDecorationsInEffect&quot;:&quot;&quot;,&quot;webkitTextEmphasis&quot;:&quot;&quot;,&quot;webkitTextEmphasisColor&quot;:&quot;&quot;,&quot;webkitTextEmphasisPosition&quot;:&quot;&quot;,&quot;webkitTextEmphasisStyle&quot;:&quot;&quot;,&quot;webkitTextFillColor&quot;:&quot;&quot;,&quot;webkitTextOrientation&quot;:&quot;&quot;,&quot;webkitTextSecurity&quot;:&quot;&quot;,&quot;webkitTextSizeAdjust&quot;:&quot;&quot;,&quot;webkitTextStroke&quot;:&quot;&quot;,&quot;webkitTextStrokeColor&quot;:&quot;&quot;,&quot;webkitTextStrokeWidth&quot;:&quot;&quot;,&quot;webkitTransform&quot;:&quot;&quot;,&quot;webkitTransformOrigin&quot;:&quot;&quot;,&quot;webkitTransformOriginX&quot;:&quot;&quot;,&quot;webkitTransformOriginY&quot;:&quot;&quot;,&quot;webkitTransformOriginZ&quot;:&quot;&quot;,&quot;webkitTransformStyle&quot;:&quot;&quot;,&quot;webkitTransition&quot;:&quot;&quot;,&quot;webkitTransitionDelay&quot;:&quot;&quot;,&quot;webkitTransitionDuration&quot;:&quot;&quot;,&quot;webkitTransitionProperty&quot;:&quot;&quot;,&quot;webkitTransitionTimingFunction&quot;:&quot;&quot;,&quot;webkitUserDrag&quot;:&quot;&quot;,&quot;webkitUserModify&quot;:&quot;&quot;,&quot;webkitUserSelect&quot;:&quot;&quot;,&quot;webkitWritingMode&quot;:&quot;&quot;,&quot;whiteSpace&quot;:&quot;&quot;,&quot;widows&quot;:&quot;&quot;,&quot;width&quot;:&quot;&quot;,&quot;willChange&quot;:&quot;&quot;,&quot;wordBreak&quot;:&quot;&quot;,&quot;wordSpacing&quot;:&quot;&quot;,&quot;wordWrap&quot;:&quot;&quot;,&quot;writingMode&quot;:&quot;&quot;,&quot;x&quot;:&quot;&quot;,&quot;y&quot;:&quot;&quot;,&quot;zIndex&quot;:&quot;&quot;,&quot;zoom&quot;:&quot;&quot;}" />
+          </attribute>
+          <attribute name="wTabIndex">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wInputType">
+            <ProcessValue datatype="text" value="text" />
+          </attribute>
+          <attribute name="wAccessKey">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wInnerText">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wSource">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wTargetAddress">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wAlt">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPattern">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wRel">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wLinkTarget">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPlaceholder">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="Currency Name">
+        <id>0f051a3f-4096-4126-9685-b0321a5fec9a</id>
+        <type>WebElement</type>
+        <basetype>WebElement</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="wX">
+            <ProcessValue datatype="number" value="482" />
+          </attribute>
+          <attribute name="wY">
+            <ProcessValue datatype="number" value="208" />
+          </attribute>
+          <attribute name="wWidth">
+            <ProcessValue datatype="number" value="263" />
+          </attribute>
+          <attribute name="wHeight">
+            <ProcessValue datatype="number" value="60" />
+          </attribute>
+          <attribute name="wClientX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wClientY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wClientWidth">
+            <ProcessValue datatype="number" value="263" />
+          </attribute>
+          <attribute name="wClientHeight">
+            <ProcessValue datatype="number" value="60" />
+          </attribute>
+          <attribute name="wOffsetX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wOffsetY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wOffsetWidth">
+            <ProcessValue datatype="number" value="263" />
+          </attribute>
+          <attribute name="wOffsetHeight">
+            <ProcessValue datatype="number" value="60" />
+          </attribute>
+          <attribute name="wScrollX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wScrollY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wScrollWidth">
+            <ProcessValue datatype="number" value="263" />
+          </attribute>
+          <attribute name="wScrollHeight">
+            <ProcessValue datatype="number" value="60" />
+          </attribute>
+          <attribute name="wElementType" inuse="True">
+            <ProcessValue datatype="text" value="DIV" />
+          </attribute>
+          <attribute name="wXPath" inuse="True">
+            <ProcessValue datatype="text" value="/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/MAIN[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/FORM[1]/DIV[2]/DIV[1]/DIV[1]" />
+          </attribute>
+          <attribute name="wCssSelector">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wValue">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPageAddress">
+            <ProcessValue datatype="text" value="https://www.xe.com/currencyconverter/convert/?Amount=22&amp;From=EUR&amp;To=INR" />
+          </attribute>
+          <attribute name="wClass">
+            <ProcessValue datatype="text" value="css-g7y9p6-control converterform-dropdown__control converterform-dropdown__control--is-focused" />
+          </attribute>
+          <attribute name="wChildCount">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="wIsEditable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="wStyle">
+            <ProcessValue datatype="text" value="{&quot;alignContent&quot;:&quot;&quot;,&quot;alignItems&quot;:&quot;&quot;,&quot;alignSelf&quot;:&quot;&quot;,&quot;alignmentBaseline&quot;:&quot;&quot;,&quot;all&quot;:&quot;&quot;,&quot;animation&quot;:&quot;&quot;,&quot;animationDelay&quot;:&quot;&quot;,&quot;animationDirection&quot;:&quot;&quot;,&quot;animationDuration&quot;:&quot;&quot;,&quot;animationFillMode&quot;:&quot;&quot;,&quot;animationIterationCount&quot;:&quot;&quot;,&quot;animationName&quot;:&quot;&quot;,&quot;animationPlayState&quot;:&quot;&quot;,&quot;animationTimingFunction&quot;:&quot;&quot;,&quot;appearance&quot;:&quot;&quot;,&quot;backdropFilter&quot;:&quot;&quot;,&quot;backfaceVisibility&quot;:&quot;&quot;,&quot;background&quot;:&quot;&quot;,&quot;backgroundAttachment&quot;:&quot;&quot;,&quot;backgroundBlendMode&quot;:&quot;&quot;,&quot;backgroundClip&quot;:&quot;&quot;,&quot;backgroundColor&quot;:&quot;&quot;,&quot;backgroundImage&quot;:&quot;&quot;,&quot;backgroundOrigin&quot;:&quot;&quot;,&quot;backgroundPosition&quot;:&quot;&quot;,&quot;backgroundPositionX&quot;:&quot;&quot;,&quot;backgroundPositionY&quot;:&quot;&quot;,&quot;backgroundRepeat&quot;:&quot;&quot;,&quot;backgroundRepeatX&quot;:&quot;&quot;,&quot;backgroundRepeatY&quot;:&quot;&quot;,&quot;backgroundSize&quot;:&quot;&quot;,&quot;baselineShift&quot;:&quot;&quot;,&quot;blockSize&quot;:&quot;&quot;,&quot;border&quot;:&quot;&quot;,&quot;borderBlockEnd&quot;:&quot;&quot;,&quot;borderBlockEndColor&quot;:&quot;&quot;,&quot;borderBlockEndStyle&quot;:&quot;&quot;,&quot;borderBlockEndWidth&quot;:&quot;&quot;,&quot;borderBlockStart&quot;:&quot;&quot;,&quot;borderBlockStartColor&quot;:&quot;&quot;,&quot;borderBlockStartStyle&quot;:&quot;&quot;,&quot;borderBlockStartWidth&quot;:&quot;&quot;,&quot;borderBottom&quot;:&quot;&quot;,&quot;borderBottomColor&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;borderBottomStyle&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderCollapse&quot;:&quot;&quot;,&quot;borderColor&quot;:&quot;&quot;,&quot;borderImage&quot;:&quot;&quot;,&quot;borderImageOutset&quot;:&quot;&quot;,&quot;borderImageRepeat&quot;:&quot;&quot;,&quot;borderImageSlice&quot;:&quot;&quot;,&quot;borderImageSource&quot;:&quot;&quot;,&quot;borderImageWidth&quot;:&quot;&quot;,&quot;borderInlineEnd&quot;:&quot;&quot;,&quot;borderInlineEndColor&quot;:&quot;&quot;,&quot;borderInlineEndStyle&quot;:&quot;&quot;,&quot;borderInlineEndWidth&quot;:&quot;&quot;,&quot;borderInlineStart&quot;:&quot;&quot;,&quot;borderInlineStartColor&quot;:&quot;&quot;,&quot;borderInlineStartStyle&quot;:&quot;&quot;,&quot;borderInlineStartWidth&quot;:&quot;&quot;,&quot;borderLeft&quot;:&quot;&quot;,&quot;borderLeftColor&quot;:&quot;&quot;,&quot;borderLeftStyle&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRadius&quot;:&quot;&quot;,&quot;borderRight&quot;:&quot;&quot;,&quot;borderRightColor&quot;:&quot;&quot;,&quot;borderRightStyle&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderSpacing&quot;:&quot;&quot;,&quot;borderStyle&quot;:&quot;&quot;,&quot;borderTop&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;&quot;,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderTopStyle&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderWidth&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;&quot;,&quot;boxSizing&quot;:&quot;&quot;,&quot;breakAfter&quot;:&quot;&quot;,&quot;breakBefore&quot;:&quot;&quot;,&quot;breakInside&quot;:&quot;&quot;,&quot;bufferedRendering&quot;:&quot;&quot;,&quot;captionSide&quot;:&quot;&quot;,&quot;caretColor&quot;:&quot;&quot;,&quot;clear&quot;:&quot;&quot;,&quot;clip&quot;:&quot;&quot;,&quot;clipPath&quot;:&quot;&quot;,&quot;clipRule&quot;:&quot;&quot;,&quot;color&quot;:&quot;&quot;,&quot;colorInterpolation&quot;:&quot;&quot;,&quot;colorInterpolationFilters&quot;:&quot;&quot;,&quot;colorRendering&quot;:&quot;&quot;,&quot;colorScheme&quot;:&quot;&quot;,&quot;columnCount&quot;:&quot;&quot;,&quot;columnFill&quot;:&quot;&quot;,&quot;columnGap&quot;:&quot;&quot;,&quot;columnRule&quot;:&quot;&quot;,&quot;columnRuleColor&quot;:&quot;&quot;,&quot;columnRuleStyle&quot;:&quot;&quot;,&quot;columnRuleWidth&quot;:&quot;&quot;,&quot;columnSpan&quot;:&quot;&quot;,&quot;columnWidth&quot;:&quot;&quot;,&quot;columns&quot;:&quot;&quot;,&quot;contain&quot;:&quot;&quot;,&quot;containIntrinsicSize&quot;:&quot;&quot;,&quot;content&quot;:&quot;&quot;,&quot;contentVisibility&quot;:&quot;&quot;,&quot;counterIncrement&quot;:&quot;&quot;,&quot;counterReset&quot;:&quot;&quot;,&quot;counterSet&quot;:&quot;&quot;,&quot;cursor&quot;:&quot;&quot;,&quot;cx&quot;:&quot;&quot;,&quot;cy&quot;:&quot;&quot;,&quot;d&quot;:&quot;&quot;,&quot;direction&quot;:&quot;&quot;,&quot;display&quot;:&quot;&quot;,&quot;dominantBaseline&quot;:&quot;&quot;,&quot;emptyCells&quot;:&quot;&quot;,&quot;fill&quot;:&quot;&quot;,&quot;fillOpacity&quot;:&quot;&quot;,&quot;fillRule&quot;:&quot;&quot;,&quot;filter&quot;:&quot;&quot;,&quot;flex&quot;:&quot;&quot;,&quot;flexBasis&quot;:&quot;&quot;,&quot;flexDirection&quot;:&quot;&quot;,&quot;flexFlow&quot;:&quot;&quot;,&quot;flexGrow&quot;:&quot;&quot;,&quot;flexShrink&quot;:&quot;&quot;,&quot;flexWrap&quot;:&quot;&quot;,&quot;float&quot;:&quot;&quot;,&quot;floodColor&quot;:&quot;&quot;,&quot;floodOpacity&quot;:&quot;&quot;,&quot;font&quot;:&quot;&quot;,&quot;fontDisplay&quot;:&quot;&quot;,&quot;fontFamily&quot;:&quot;&quot;,&quot;fontFeatureSettings&quot;:&quot;&quot;,&quot;fontKerning&quot;:&quot;&quot;,&quot;fontOpticalSizing&quot;:&quot;&quot;,&quot;fontSize&quot;:&quot;&quot;,&quot;fontStretch&quot;:&quot;&quot;,&quot;fontStyle&quot;:&quot;&quot;,&quot;fontVariant&quot;:&quot;&quot;,&quot;fontVariantCaps&quot;:&quot;&quot;,&quot;fontVariantEastAsian&quot;:&quot;&quot;,&quot;fontVariantLigatures&quot;:&quot;&quot;,&quot;fontVariantNumeric&quot;:&quot;&quot;,&quot;fontVariationSettings&quot;:&quot;&quot;,&quot;fontWeight&quot;:&quot;&quot;,&quot;gap&quot;:&quot;&quot;,&quot;grid&quot;:&quot;&quot;,&quot;gridArea&quot;:&quot;&quot;,&quot;gridAutoColumns&quot;:&quot;&quot;,&quot;gridAutoFlow&quot;:&quot;&quot;,&quot;gridAutoRows&quot;:&quot;&quot;,&quot;gridColumn&quot;:&quot;&quot;,&quot;gridColumnEnd&quot;:&quot;&quot;,&quot;gridColumnGap&quot;:&quot;&quot;,&quot;gridColumnStart&quot;:&quot;&quot;,&quot;gridGap&quot;:&quot;&quot;,&quot;gridRow&quot;:&quot;&quot;,&quot;gridRowEnd&quot;:&quot;&quot;,&quot;gridRowGap&quot;:&quot;&quot;,&quot;gridRowStart&quot;:&quot;&quot;,&quot;gridTemplate&quot;:&quot;&quot;,&quot;gridTemplateAreas&quot;:&quot;&quot;,&quot;gridTemplateColumns&quot;:&quot;&quot;,&quot;gridTemplateRows&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;hyphens&quot;:&quot;&quot;,&quot;imageOrientation&quot;:&quot;&quot;,&quot;imageRendering&quot;:&quot;&quot;,&quot;inherits&quot;:&quot;&quot;,&quot;initialValue&quot;:&quot;&quot;,&quot;inlineSize&quot;:&quot;&quot;,&quot;isolation&quot;:&quot;&quot;,&quot;justifyContent&quot;:&quot;&quot;,&quot;justifyItems&quot;:&quot;&quot;,&quot;justifySelf&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;letterSpacing&quot;:&quot;&quot;,&quot;lightingColor&quot;:&quot;&quot;,&quot;lineBreak&quot;:&quot;&quot;,&quot;lineHeight&quot;:&quot;&quot;,&quot;listStyle&quot;:&quot;&quot;,&quot;listStyleImage&quot;:&quot;&quot;,&quot;listStylePosition&quot;:&quot;&quot;,&quot;listStyleType&quot;:&quot;&quot;,&quot;margin&quot;:&quot;&quot;,&quot;marginBlockEnd&quot;:&quot;&quot;,&quot;marginBlockStart&quot;:&quot;&quot;,&quot;marginBottom&quot;:&quot;&quot;,&quot;marginInlineEnd&quot;:&quot;&quot;,&quot;marginInlineStart&quot;:&quot;&quot;,&quot;marginLeft&quot;:&quot;&quot;,&quot;marginRight&quot;:&quot;&quot;,&quot;marginTop&quot;:&quot;&quot;,&quot;marker&quot;:&quot;&quot;,&quot;markerEnd&quot;:&quot;&quot;,&quot;markerMid&quot;:&quot;&quot;,&quot;markerStart&quot;:&quot;&quot;,&quot;mask&quot;:&quot;&quot;,&quot;maskType&quot;:&quot;&quot;,&quot;maxBlockSize&quot;:&quot;&quot;,&quot;maxHeight&quot;:&quot;&quot;,&quot;maxInlineSize&quot;:&quot;&quot;,&quot;maxWidth&quot;:&quot;&quot;,&quot;maxZoom&quot;:&quot;&quot;,&quot;minBlockSize&quot;:&quot;&quot;,&quot;minHeight&quot;:&quot;&quot;,&quot;minInlineSize&quot;:&quot;&quot;,&quot;minWidth&quot;:&quot;&quot;,&quot;minZoom&quot;:&quot;&quot;,&quot;mixBlendMode&quot;:&quot;&quot;,&quot;objectFit&quot;:&quot;&quot;,&quot;objectPosition&quot;:&quot;&quot;,&quot;offset&quot;:&quot;&quot;,&quot;offsetDistance&quot;:&quot;&quot;,&quot;offsetPath&quot;:&quot;&quot;,&quot;offsetRotate&quot;:&quot;&quot;,&quot;opacity&quot;:&quot;&quot;,&quot;order&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;&quot;,&quot;orphans&quot;:&quot;&quot;,&quot;outline&quot;:&quot;&quot;,&quot;outlineColor&quot;:&quot;&quot;,&quot;outlineOffset&quot;:&quot;&quot;,&quot;outlineStyle&quot;:&quot;&quot;,&quot;outlineWidth&quot;:&quot;&quot;,&quot;overflow&quot;:&quot;&quot;,&quot;overflowAnchor&quot;:&quot;&quot;,&quot;overflowWrap&quot;:&quot;&quot;,&quot;overflowX&quot;:&quot;&quot;,&quot;overflowY&quot;:&quot;&quot;,&quot;overscrollBehavior&quot;:&quot;&quot;,&quot;overscrollBehaviorBlock&quot;:&quot;&quot;,&quot;overscrollBehaviorInline&quot;:&quot;&quot;,&quot;overscrollBehaviorX&quot;:&quot;&quot;,&quot;overscrollBehaviorY&quot;:&quot;&quot;,&quot;padding&quot;:&quot;&quot;,&quot;paddingBlockEnd&quot;:&quot;&quot;,&quot;paddingBlockStart&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingInlineEnd&quot;:&quot;&quot;,&quot;paddingInlineStart&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;paddingTop&quot;:&quot;&quot;,&quot;page&quot;:&quot;&quot;,&quot;pageBreakAfter&quot;:&quot;&quot;,&quot;pageBreakBefore&quot;:&quot;&quot;,&quot;pageBreakInside&quot;:&quot;&quot;,&quot;pageOrientation&quot;:&quot;&quot;,&quot;paintOrder&quot;:&quot;&quot;,&quot;perspective&quot;:&quot;&quot;,&quot;perspectiveOrigin&quot;:&quot;&quot;,&quot;placeContent&quot;:&quot;&quot;,&quot;placeItems&quot;:&quot;&quot;,&quot;placeSelf&quot;:&quot;&quot;,&quot;pointerEvents&quot;:&quot;&quot;,&quot;position&quot;:&quot;&quot;,&quot;quotes&quot;:&quot;&quot;,&quot;r&quot;:&quot;&quot;,&quot;resize&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;rowGap&quot;:&quot;&quot;,&quot;rubyPosition&quot;:&quot;&quot;,&quot;rx&quot;:&quot;&quot;,&quot;ry&quot;:&quot;&quot;,&quot;scrollBehavior&quot;:&quot;&quot;,&quot;scrollMargin&quot;:&quot;&quot;,&quot;scrollMarginBlock&quot;:&quot;&quot;,&quot;scrollMarginBlockEnd&quot;:&quot;&quot;,&quot;scrollMarginBlockStart&quot;:&quot;&quot;,&quot;scrollMarginBottom&quot;:&quot;&quot;,&quot;scrollMarginInline&quot;:&quot;&quot;,&quot;scrollMarginInlineEnd&quot;:&quot;&quot;,&quot;scrollMarginInlineStart&quot;:&quot;&quot;,&quot;scrollMarginLeft&quot;:&quot;&quot;,&quot;scrollMarginRight&quot;:&quot;&quot;,&quot;scrollMarginTop&quot;:&quot;&quot;,&quot;scrollPadding&quot;:&quot;&quot;,&quot;scrollPaddingBlock&quot;:&quot;&quot;,&quot;scrollPaddingBlockEnd&quot;:&quot;&quot;,&quot;scrollPaddingBlockStart&quot;:&quot;&quot;,&quot;scrollPaddingBottom&quot;:&quot;&quot;,&quot;scrollPaddingInline&quot;:&quot;&quot;,&quot;scrollPaddingInlineEnd&quot;:&quot;&quot;,&quot;scrollPaddingInlineStart&quot;:&quot;&quot;,&quot;scrollPaddingLeft&quot;:&quot;&quot;,&quot;scrollPaddingRight&quot;:&quot;&quot;,&quot;scrollPaddingTop&quot;:&quot;&quot;,&quot;scrollSnapAlign&quot;:&quot;&quot;,&quot;scrollSnapStop&quot;:&quot;&quot;,&quot;scrollSnapType&quot;:&quot;&quot;,&quot;shapeImageThreshold&quot;:&quot;&quot;,&quot;shapeMargin&quot;:&quot;&quot;,&quot;shapeOutside&quot;:&quot;&quot;,&quot;shapeRendering&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;,&quot;speak&quot;:&quot;&quot;,&quot;src&quot;:&quot;&quot;,&quot;stopColor&quot;:&quot;&quot;,&quot;stopOpacity&quot;:&quot;&quot;,&quot;stroke&quot;:&quot;&quot;,&quot;strokeDasharray&quot;:&quot;&quot;,&quot;strokeDashoffset&quot;:&quot;&quot;,&quot;strokeLinecap&quot;:&quot;&quot;,&quot;strokeLinejoin&quot;:&quot;&quot;,&quot;strokeMiterlimit&quot;:&quot;&quot;,&quot;strokeOpacity&quot;:&quot;&quot;,&quot;strokeWidth&quot;:&quot;&quot;,&quot;syntax&quot;:&quot;&quot;,&quot;tabSize&quot;:&quot;&quot;,&quot;tableLayout&quot;:&quot;&quot;,&quot;textAlign&quot;:&quot;&quot;,&quot;textAlignLast&quot;:&quot;&quot;,&quot;textAnchor&quot;:&quot;&quot;,&quot;textCombineUpright&quot;:&quot;&quot;,&quot;textDecoration&quot;:&quot;&quot;,&quot;textDecorationColor&quot;:&quot;&quot;,&quot;textDecorationLine&quot;:&quot;&quot;,&quot;textDecorationSkipInk&quot;:&quot;&quot;,&quot;textDecorationStyle&quot;:&quot;&quot;,&quot;textIndent&quot;:&quot;&quot;,&quot;textOrientation&quot;:&quot;&quot;,&quot;textOverflow&quot;:&quot;&quot;,&quot;textRendering&quot;:&quot;&quot;,&quot;textShadow&quot;:&quot;&quot;,&quot;textSizeAdjust&quot;:&quot;&quot;,&quot;textTransform&quot;:&quot;&quot;,&quot;textUnderlinePosition&quot;:&quot;&quot;,&quot;top&quot;:&quot;&quot;,&quot;touchAction&quot;:&quot;&quot;,&quot;transform&quot;:&quot;&quot;,&quot;transformBox&quot;:&quot;&quot;,&quot;transformOrigin&quot;:&quot;&quot;,&quot;transformStyle&quot;:&quot;&quot;,&quot;transition&quot;:&quot;&quot;,&quot;transitionDelay&quot;:&quot;&quot;,&quot;transitionDuration&quot;:&quot;&quot;,&quot;transitionProperty&quot;:&quot;&quot;,&quot;transitionTimingFunction&quot;:&quot;&quot;,&quot;unicodeBidi&quot;:&quot;&quot;,&quot;unicodeRange&quot;:&quot;&quot;,&quot;userSelect&quot;:&quot;&quot;,&quot;userZoom&quot;:&quot;&quot;,&quot;vectorEffect&quot;:&quot;&quot;,&quot;verticalAlign&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;&quot;,&quot;webkitAlignContent&quot;:&quot;&quot;,&quot;webkitAlignItems&quot;:&quot;&quot;,&quot;webkitAlignSelf&quot;:&quot;&quot;,&quot;webkitAnimation&quot;:&quot;&quot;,&quot;webkitAnimationDelay&quot;:&quot;&quot;,&quot;webkitAnimationDirection&quot;:&quot;&quot;,&quot;webkitAnimationDuration&quot;:&quot;&quot;,&quot;webkitAnimationFillMode&quot;:&quot;&quot;,&quot;webkitAnimationIterationCount&quot;:&quot;&quot;,&quot;webkitAnimationName&quot;:&quot;&quot;,&quot;webkitAnimationPlayState&quot;:&quot;&quot;,&quot;webkitAnimationTimingFunction&quot;:&quot;&quot;,&quot;webkitAppRegion&quot;:&quot;&quot;,&quot;webkitAppearance&quot;:&quot;&quot;,&quot;webkitBackfaceVisibility&quot;:&quot;&quot;,&quot;webkitBackgroundClip&quot;:&quot;&quot;,&quot;webkitBackgroundOrigin&quot;:&quot;&quot;,&quot;webkitBackgroundSize&quot;:&quot;&quot;,&quot;webkitBorderAfter&quot;:&quot;&quot;,&quot;webkitBorderAfterColor&quot;:&quot;&quot;,&quot;webkitBorderAfterStyle&quot;:&quot;&quot;,&quot;webkitBorderAfterWidth&quot;:&quot;&quot;,&quot;webkitBorderBefore&quot;:&quot;&quot;,&quot;webkitBorderBeforeColor&quot;:&quot;&quot;,&quot;webkitBorderBeforeStyle&quot;:&quot;&quot;,&quot;webkitBorderBeforeWidth&quot;:&quot;&quot;,&quot;webkitBorderBottomLeftRadius&quot;:&quot;&quot;,&quot;webkitBorderBottomRightRadius&quot;:&quot;&quot;,&quot;webkitBorderEnd&quot;:&quot;&quot;,&quot;webkitBorderEndColor&quot;:&quot;&quot;,&quot;webkitBorderEndStyle&quot;:&quot;&quot;,&quot;webkitBorderEndWidth&quot;:&quot;&quot;,&quot;webkitBorderHorizontalSpacing&quot;:&quot;&quot;,&quot;webkitBorderImage&quot;:&quot;&quot;,&quot;webkitBorderRadius&quot;:&quot;&quot;,&quot;webkitBorderStart&quot;:&quot;&quot;,&quot;webkitBorderStartColor&quot;:&quot;&quot;,&quot;webkitBorderStartStyle&quot;:&quot;&quot;,&quot;webkitBorderStartWidth&quot;:&quot;&quot;,&quot;webkitBorderTopLeftRadius&quot;:&quot;&quot;,&quot;webkitBorderTopRightRadius&quot;:&quot;&quot;,&quot;webkitBorderVerticalSpacing&quot;:&quot;&quot;,&quot;webkitBoxAlign&quot;:&quot;&quot;,&quot;webkitBoxDecorationBreak&quot;:&quot;&quot;,&quot;webkitBoxDirection&quot;:&quot;&quot;,&quot;webkitBoxFlex&quot;:&quot;&quot;,&quot;webkitBoxOrdinalGroup&quot;:&quot;&quot;,&quot;webkitBoxOrient&quot;:&quot;&quot;,&quot;webkitBoxPack&quot;:&quot;&quot;,&quot;webkitBoxReflect&quot;:&quot;&quot;,&quot;webkitBoxShadow&quot;:&quot;&quot;,&quot;webkitBoxSizing&quot;:&quot;&quot;,&quot;webkitClipPath&quot;:&quot;&quot;,&quot;webkitColumnBreakAfter&quot;:&quot;&quot;,&quot;webkitColumnBreakBefore&quot;:&quot;&quot;,&quot;webkitColumnBreakInside&quot;:&quot;&quot;,&quot;webkitColumnCount&quot;:&quot;&quot;,&quot;webkitColumnGap&quot;:&quot;&quot;,&quot;webkitColumnRule&quot;:&quot;&quot;,&quot;webkitColumnRuleColor&quot;:&quot;&quot;,&quot;webkitColumnRuleStyle&quot;:&quot;&quot;,&quot;webkitColumnRuleWidth&quot;:&quot;&quot;,&quot;webkitColumnSpan&quot;:&quot;&quot;,&quot;webkitColumnWidth&quot;:&quot;&quot;,&quot;webkitColumns&quot;:&quot;&quot;,&quot;webkitFilter&quot;:&quot;&quot;,&quot;webkitFlex&quot;:&quot;&quot;,&quot;webkitFlexBasis&quot;:&quot;&quot;,&quot;webkitFlexDirection&quot;:&quot;&quot;,&quot;webkitFlexFlow&quot;:&quot;&quot;,&quot;webkitFlexGrow&quot;:&quot;&quot;,&quot;webkitFlexShrink&quot;:&quot;&quot;,&quot;webkitFlexWrap&quot;:&quot;&quot;,&quot;webkitFontFeatureSettings&quot;:&quot;&quot;,&quot;webkitFontSizeDelta&quot;:&quot;&quot;,&quot;webkitFontSmoothing&quot;:&quot;&quot;,&quot;webkitHighlight&quot;:&quot;&quot;,&quot;webkitHyphenateCharacter&quot;:&quot;&quot;,&quot;webkitJustifyContent&quot;:&quot;&quot;,&quot;webkitLineBreak&quot;:&quot;&quot;,&quot;webkitLineClamp&quot;:&quot;&quot;,&quot;webkitLocale&quot;:&quot;&quot;,&quot;webkitLogicalHeight&quot;:&quot;&quot;,&quot;webkitLogicalWidth&quot;:&quot;&quot;,&quot;webkitMarginAfter&quot;:&quot;&quot;,&quot;webkitMarginBefore&quot;:&quot;&quot;,&quot;webkitMarginEnd&quot;:&quot;&quot;,&quot;webkitMarginStart&quot;:&quot;&quot;,&quot;webkitMask&quot;:&quot;&quot;,&quot;webkitMaskBoxImage&quot;:&quot;&quot;,&quot;webkitMaskBoxImageOutset&quot;:&quot;&quot;,&quot;webkitMaskBoxImageRepeat&quot;:&quot;&quot;,&quot;webkitMaskBoxImageSlice&quot;:&quot;&quot;,&quot;webkitMaskBoxImageSource&quot;:&quot;&quot;,&quot;webkitMaskBoxImageWidth&quot;:&quot;&quot;,&quot;webkitMaskClip&quot;:&quot;&quot;,&quot;webkitMaskComposite&quot;:&quot;&quot;,&quot;webkitMaskImage&quot;:&quot;&quot;,&quot;webkitMaskOrigin&quot;:&quot;&quot;,&quot;webkitMaskPosition&quot;:&quot;&quot;,&quot;webkitMaskPositionX&quot;:&quot;&quot;,&quot;webkitMaskPositionY&quot;:&quot;&quot;,&quot;webkitMaskRepeat&quot;:&quot;&quot;,&quot;webkitMaskRepeatX&quot;:&quot;&quot;,&quot;webkitMaskRepeatY&quot;:&quot;&quot;,&quot;webkitMaskSize&quot;:&quot;&quot;,&quot;webkitMaxLogicalHeight&quot;:&quot;&quot;,&quot;webkitMaxLogicalWidth&quot;:&quot;&quot;,&quot;webkitMinLogicalHeight&quot;:&quot;&quot;,&quot;webkitMinLogicalWidth&quot;:&quot;&quot;,&quot;webkitOpacity&quot;:&quot;&quot;,&quot;webkitOrder&quot;:&quot;&quot;,&quot;webkitPaddingAfter&quot;:&quot;&quot;,&quot;webkitPaddingBefore&quot;:&quot;&quot;,&quot;webkitPaddingEnd&quot;:&quot;&quot;,&quot;webkitPaddingStart&quot;:&quot;&quot;,&quot;webkitPerspective&quot;:&quot;&quot;,&quot;webkitPerspectiveOrigin&quot;:&quot;&quot;,&quot;webkitPerspectiveOriginX&quot;:&quot;&quot;,&quot;webkitPerspectiveOriginY&quot;:&quot;&quot;,&quot;webkitPrintColorAdjust&quot;:&quot;&quot;,&quot;webkitRtlOrdering&quot;:&quot;&quot;,&quot;webkitRubyPosition&quot;:&quot;&quot;,&quot;webkitShapeImageThreshold&quot;:&quot;&quot;,&quot;webkitShapeMargin&quot;:&quot;&quot;,&quot;webkitShapeOutside&quot;:&quot;&quot;,&quot;webkitTapHighlightColor&quot;:&quot;&quot;,&quot;webkitTextCombine&quot;:&quot;&quot;,&quot;webkitTextDecorationsInEffect&quot;:&quot;&quot;,&quot;webkitTextEmphasis&quot;:&quot;&quot;,&quot;webkitTextEmphasisColor&quot;:&quot;&quot;,&quot;webkitTextEmphasisPosition&quot;:&quot;&quot;,&quot;webkitTextEmphasisStyle&quot;:&quot;&quot;,&quot;webkitTextFillColor&quot;:&quot;&quot;,&quot;webkitTextOrientation&quot;:&quot;&quot;,&quot;webkitTextSecurity&quot;:&quot;&quot;,&quot;webkitTextSizeAdjust&quot;:&quot;&quot;,&quot;webkitTextStroke&quot;:&quot;&quot;,&quot;webkitTextStrokeColor&quot;:&quot;&quot;,&quot;webkitTextStrokeWidth&quot;:&quot;&quot;,&quot;webkitTransform&quot;:&quot;&quot;,&quot;webkitTransformOrigin&quot;:&quot;&quot;,&quot;webkitTransformOriginX&quot;:&quot;&quot;,&quot;webkitTransformOriginY&quot;:&quot;&quot;,&quot;webkitTransformOriginZ&quot;:&quot;&quot;,&quot;webkitTransformStyle&quot;:&quot;&quot;,&quot;webkitTransition&quot;:&quot;&quot;,&quot;webkitTransitionDelay&quot;:&quot;&quot;,&quot;webkitTransitionDuration&quot;:&quot;&quot;,&quot;webkitTransitionProperty&quot;:&quot;&quot;,&quot;webkitTransitionTimingFunction&quot;:&quot;&quot;,&quot;webkitUserDrag&quot;:&quot;&quot;,&quot;webkitUserModify&quot;:&quot;&quot;,&quot;webkitUserSelect&quot;:&quot;&quot;,&quot;webkitWritingMode&quot;:&quot;&quot;,&quot;whiteSpace&quot;:&quot;&quot;,&quot;widows&quot;:&quot;&quot;,&quot;width&quot;:&quot;&quot;,&quot;willChange&quot;:&quot;&quot;,&quot;wordBreak&quot;:&quot;&quot;,&quot;wordSpacing&quot;:&quot;&quot;,&quot;wordWrap&quot;:&quot;&quot;,&quot;writingMode&quot;:&quot;&quot;,&quot;x&quot;:&quot;&quot;,&quot;y&quot;:&quot;&quot;,&quot;zIndex&quot;:&quot;&quot;,&quot;zoom&quot;:&quot;&quot;}" />
+          </attribute>
+          <attribute name="wTabIndex">
+            <ProcessValue datatype="number" value="-1" />
+          </attribute>
+          <attribute name="wInputType">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wAccessKey">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wInnerText">
+            <ProcessValue datatype="text" value="EUR&#xA;Euro" />
+          </attribute>
+          <attribute name="wSource">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wTargetAddress">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wAlt">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPattern">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wRel">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wLinkTarget">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPlaceholder">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="Submit Button">
+        <id>82f5a4a4-3eac-4cd5-adf6-f038aa52c95d</id>
+        <type>WebElement</type>
+        <basetype>WebElement</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="wX">
+            <ProcessValue datatype="number" value="1079" />
+          </attribute>
+          <attribute name="wY">
+            <ProcessValue datatype="number" value="249" />
+          </attribute>
+          <attribute name="wWidth">
+            <ProcessValue datatype="number" value="60" />
+          </attribute>
+          <attribute name="wHeight">
+            <ProcessValue datatype="number" value="60" />
+          </attribute>
+          <attribute name="wClientX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wClientY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wClientWidth">
+            <ProcessValue datatype="number" value="60" />
+          </attribute>
+          <attribute name="wClientHeight">
+            <ProcessValue datatype="number" value="60" />
+          </attribute>
+          <attribute name="wOffsetX">
+            <ProcessValue datatype="number" value="1079" />
+          </attribute>
+          <attribute name="wOffsetY">
+            <ProcessValue datatype="number" value="257" />
+          </attribute>
+          <attribute name="wOffsetWidth">
+            <ProcessValue datatype="number" value="60" />
+          </attribute>
+          <attribute name="wOffsetHeight">
+            <ProcessValue datatype="number" value="60" />
+          </attribute>
+          <attribute name="wScrollX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wScrollY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wScrollWidth">
+            <ProcessValue datatype="number" value="60" />
+          </attribute>
+          <attribute name="wScrollHeight">
+            <ProcessValue datatype="number" value="60" />
+          </attribute>
+          <attribute name="wElementType" inuse="True">
+            <ProcessValue datatype="text" value="BUTTON" />
+          </attribute>
+          <attribute name="wXPath" inuse="True">
+            <ProcessValue datatype="text" value="/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/MAIN[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/FORM[1]/BUTTON[2]" />
+          </attribute>
+          <attribute name="wCssSelector">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wValue">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPageAddress">
+            <ProcessValue datatype="text" value="https://www.xe.com/currencyconverter/convert/?Amount=1&amp;From=EUR&amp;To=INR" />
+          </attribute>
+          <attribute name="wClass">
+            <ProcessValue datatype="text" value="OldButton-jvvAjr SubmitButton-fCPQGw epSzca submitButton" />
+          </attribute>
+          <attribute name="wChildCount">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="wIsEditable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="wStyle">
+            <ProcessValue datatype="text" value="{&quot;alignContent&quot;:&quot;&quot;,&quot;alignItems&quot;:&quot;&quot;,&quot;alignSelf&quot;:&quot;&quot;,&quot;alignmentBaseline&quot;:&quot;&quot;,&quot;all&quot;:&quot;&quot;,&quot;animation&quot;:&quot;&quot;,&quot;animationDelay&quot;:&quot;&quot;,&quot;animationDirection&quot;:&quot;&quot;,&quot;animationDuration&quot;:&quot;&quot;,&quot;animationFillMode&quot;:&quot;&quot;,&quot;animationIterationCount&quot;:&quot;&quot;,&quot;animationName&quot;:&quot;&quot;,&quot;animationPlayState&quot;:&quot;&quot;,&quot;animationTimingFunction&quot;:&quot;&quot;,&quot;appearance&quot;:&quot;&quot;,&quot;backdropFilter&quot;:&quot;&quot;,&quot;backfaceVisibility&quot;:&quot;&quot;,&quot;background&quot;:&quot;&quot;,&quot;backgroundAttachment&quot;:&quot;&quot;,&quot;backgroundBlendMode&quot;:&quot;&quot;,&quot;backgroundClip&quot;:&quot;&quot;,&quot;backgroundColor&quot;:&quot;&quot;,&quot;backgroundImage&quot;:&quot;&quot;,&quot;backgroundOrigin&quot;:&quot;&quot;,&quot;backgroundPosition&quot;:&quot;&quot;,&quot;backgroundPositionX&quot;:&quot;&quot;,&quot;backgroundPositionY&quot;:&quot;&quot;,&quot;backgroundRepeat&quot;:&quot;&quot;,&quot;backgroundRepeatX&quot;:&quot;&quot;,&quot;backgroundRepeatY&quot;:&quot;&quot;,&quot;backgroundSize&quot;:&quot;&quot;,&quot;baselineShift&quot;:&quot;&quot;,&quot;blockSize&quot;:&quot;&quot;,&quot;border&quot;:&quot;&quot;,&quot;borderBlockEnd&quot;:&quot;&quot;,&quot;borderBlockEndColor&quot;:&quot;&quot;,&quot;borderBlockEndStyle&quot;:&quot;&quot;,&quot;borderBlockEndWidth&quot;:&quot;&quot;,&quot;borderBlockStart&quot;:&quot;&quot;,&quot;borderBlockStartColor&quot;:&quot;&quot;,&quot;borderBlockStartStyle&quot;:&quot;&quot;,&quot;borderBlockStartWidth&quot;:&quot;&quot;,&quot;borderBottom&quot;:&quot;&quot;,&quot;borderBottomColor&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;borderBottomStyle&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderCollapse&quot;:&quot;&quot;,&quot;borderColor&quot;:&quot;&quot;,&quot;borderImage&quot;:&quot;&quot;,&quot;borderImageOutset&quot;:&quot;&quot;,&quot;borderImageRepeat&quot;:&quot;&quot;,&quot;borderImageSlice&quot;:&quot;&quot;,&quot;borderImageSource&quot;:&quot;&quot;,&quot;borderImageWidth&quot;:&quot;&quot;,&quot;borderInlineEnd&quot;:&quot;&quot;,&quot;borderInlineEndColor&quot;:&quot;&quot;,&quot;borderInlineEndStyle&quot;:&quot;&quot;,&quot;borderInlineEndWidth&quot;:&quot;&quot;,&quot;borderInlineStart&quot;:&quot;&quot;,&quot;borderInlineStartColor&quot;:&quot;&quot;,&quot;borderInlineStartStyle&quot;:&quot;&quot;,&quot;borderInlineStartWidth&quot;:&quot;&quot;,&quot;borderLeft&quot;:&quot;&quot;,&quot;borderLeftColor&quot;:&quot;&quot;,&quot;borderLeftStyle&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRadius&quot;:&quot;&quot;,&quot;borderRight&quot;:&quot;&quot;,&quot;borderRightColor&quot;:&quot;&quot;,&quot;borderRightStyle&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderSpacing&quot;:&quot;&quot;,&quot;borderStyle&quot;:&quot;&quot;,&quot;borderTop&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;&quot;,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderTopStyle&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderWidth&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;&quot;,&quot;boxSizing&quot;:&quot;&quot;,&quot;breakAfter&quot;:&quot;&quot;,&quot;breakBefore&quot;:&quot;&quot;,&quot;breakInside&quot;:&quot;&quot;,&quot;bufferedRendering&quot;:&quot;&quot;,&quot;captionSide&quot;:&quot;&quot;,&quot;caretColor&quot;:&quot;&quot;,&quot;clear&quot;:&quot;&quot;,&quot;clip&quot;:&quot;&quot;,&quot;clipPath&quot;:&quot;&quot;,&quot;clipRule&quot;:&quot;&quot;,&quot;color&quot;:&quot;&quot;,&quot;colorInterpolation&quot;:&quot;&quot;,&quot;colorInterpolationFilters&quot;:&quot;&quot;,&quot;colorRendering&quot;:&quot;&quot;,&quot;colorScheme&quot;:&quot;&quot;,&quot;columnCount&quot;:&quot;&quot;,&quot;columnFill&quot;:&quot;&quot;,&quot;columnGap&quot;:&quot;&quot;,&quot;columnRule&quot;:&quot;&quot;,&quot;columnRuleColor&quot;:&quot;&quot;,&quot;columnRuleStyle&quot;:&quot;&quot;,&quot;columnRuleWidth&quot;:&quot;&quot;,&quot;columnSpan&quot;:&quot;&quot;,&quot;columnWidth&quot;:&quot;&quot;,&quot;columns&quot;:&quot;&quot;,&quot;contain&quot;:&quot;&quot;,&quot;containIntrinsicSize&quot;:&quot;&quot;,&quot;content&quot;:&quot;&quot;,&quot;contentVisibility&quot;:&quot;&quot;,&quot;counterIncrement&quot;:&quot;&quot;,&quot;counterReset&quot;:&quot;&quot;,&quot;counterSet&quot;:&quot;&quot;,&quot;cursor&quot;:&quot;&quot;,&quot;cx&quot;:&quot;&quot;,&quot;cy&quot;:&quot;&quot;,&quot;d&quot;:&quot;&quot;,&quot;direction&quot;:&quot;&quot;,&quot;display&quot;:&quot;&quot;,&quot;dominantBaseline&quot;:&quot;&quot;,&quot;emptyCells&quot;:&quot;&quot;,&quot;fill&quot;:&quot;&quot;,&quot;fillOpacity&quot;:&quot;&quot;,&quot;fillRule&quot;:&quot;&quot;,&quot;filter&quot;:&quot;&quot;,&quot;flex&quot;:&quot;&quot;,&quot;flexBasis&quot;:&quot;&quot;,&quot;flexDirection&quot;:&quot;&quot;,&quot;flexFlow&quot;:&quot;&quot;,&quot;flexGrow&quot;:&quot;&quot;,&quot;flexShrink&quot;:&quot;&quot;,&quot;flexWrap&quot;:&quot;&quot;,&quot;float&quot;:&quot;&quot;,&quot;floodColor&quot;:&quot;&quot;,&quot;floodOpacity&quot;:&quot;&quot;,&quot;font&quot;:&quot;&quot;,&quot;fontDisplay&quot;:&quot;&quot;,&quot;fontFamily&quot;:&quot;&quot;,&quot;fontFeatureSettings&quot;:&quot;&quot;,&quot;fontKerning&quot;:&quot;&quot;,&quot;fontOpticalSizing&quot;:&quot;&quot;,&quot;fontSize&quot;:&quot;&quot;,&quot;fontStretch&quot;:&quot;&quot;,&quot;fontStyle&quot;:&quot;&quot;,&quot;fontVariant&quot;:&quot;&quot;,&quot;fontVariantCaps&quot;:&quot;&quot;,&quot;fontVariantEastAsian&quot;:&quot;&quot;,&quot;fontVariantLigatures&quot;:&quot;&quot;,&quot;fontVariantNumeric&quot;:&quot;&quot;,&quot;fontVariationSettings&quot;:&quot;&quot;,&quot;fontWeight&quot;:&quot;&quot;,&quot;gap&quot;:&quot;&quot;,&quot;grid&quot;:&quot;&quot;,&quot;gridArea&quot;:&quot;&quot;,&quot;gridAutoColumns&quot;:&quot;&quot;,&quot;gridAutoFlow&quot;:&quot;&quot;,&quot;gridAutoRows&quot;:&quot;&quot;,&quot;gridColumn&quot;:&quot;&quot;,&quot;gridColumnEnd&quot;:&quot;&quot;,&quot;gridColumnGap&quot;:&quot;&quot;,&quot;gridColumnStart&quot;:&quot;&quot;,&quot;gridGap&quot;:&quot;&quot;,&quot;gridRow&quot;:&quot;&quot;,&quot;gridRowEnd&quot;:&quot;&quot;,&quot;gridRowGap&quot;:&quot;&quot;,&quot;gridRowStart&quot;:&quot;&quot;,&quot;gridTemplate&quot;:&quot;&quot;,&quot;gridTemplateAreas&quot;:&quot;&quot;,&quot;gridTemplateColumns&quot;:&quot;&quot;,&quot;gridTemplateRows&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;hyphens&quot;:&quot;&quot;,&quot;imageOrientation&quot;:&quot;&quot;,&quot;imageRendering&quot;:&quot;&quot;,&quot;inherits&quot;:&quot;&quot;,&quot;initialValue&quot;:&quot;&quot;,&quot;inlineSize&quot;:&quot;&quot;,&quot;isolation&quot;:&quot;&quot;,&quot;justifyContent&quot;:&quot;&quot;,&quot;justifyItems&quot;:&quot;&quot;,&quot;justifySelf&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;letterSpacing&quot;:&quot;&quot;,&quot;lightingColor&quot;:&quot;&quot;,&quot;lineBreak&quot;:&quot;&quot;,&quot;lineHeight&quot;:&quot;&quot;,&quot;listStyle&quot;:&quot;&quot;,&quot;listStyleImage&quot;:&quot;&quot;,&quot;listStylePosition&quot;:&quot;&quot;,&quot;listStyleType&quot;:&quot;&quot;,&quot;margin&quot;:&quot;&quot;,&quot;marginBlockEnd&quot;:&quot;&quot;,&quot;marginBlockStart&quot;:&quot;&quot;,&quot;marginBottom&quot;:&quot;&quot;,&quot;marginInlineEnd&quot;:&quot;&quot;,&quot;marginInlineStart&quot;:&quot;&quot;,&quot;marginLeft&quot;:&quot;&quot;,&quot;marginRight&quot;:&quot;&quot;,&quot;marginTop&quot;:&quot;&quot;,&quot;marker&quot;:&quot;&quot;,&quot;markerEnd&quot;:&quot;&quot;,&quot;markerMid&quot;:&quot;&quot;,&quot;markerStart&quot;:&quot;&quot;,&quot;mask&quot;:&quot;&quot;,&quot;maskType&quot;:&quot;&quot;,&quot;maxBlockSize&quot;:&quot;&quot;,&quot;maxHeight&quot;:&quot;&quot;,&quot;maxInlineSize&quot;:&quot;&quot;,&quot;maxWidth&quot;:&quot;&quot;,&quot;maxZoom&quot;:&quot;&quot;,&quot;minBlockSize&quot;:&quot;&quot;,&quot;minHeight&quot;:&quot;&quot;,&quot;minInlineSize&quot;:&quot;&quot;,&quot;minWidth&quot;:&quot;&quot;,&quot;minZoom&quot;:&quot;&quot;,&quot;mixBlendMode&quot;:&quot;&quot;,&quot;objectFit&quot;:&quot;&quot;,&quot;objectPosition&quot;:&quot;&quot;,&quot;offset&quot;:&quot;&quot;,&quot;offsetDistance&quot;:&quot;&quot;,&quot;offsetPath&quot;:&quot;&quot;,&quot;offsetRotate&quot;:&quot;&quot;,&quot;opacity&quot;:&quot;&quot;,&quot;order&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;&quot;,&quot;orphans&quot;:&quot;&quot;,&quot;outline&quot;:&quot;&quot;,&quot;outlineColor&quot;:&quot;&quot;,&quot;outlineOffset&quot;:&quot;&quot;,&quot;outlineStyle&quot;:&quot;&quot;,&quot;outlineWidth&quot;:&quot;&quot;,&quot;overflow&quot;:&quot;&quot;,&quot;overflowAnchor&quot;:&quot;&quot;,&quot;overflowWrap&quot;:&quot;&quot;,&quot;overflowX&quot;:&quot;&quot;,&quot;overflowY&quot;:&quot;&quot;,&quot;overscrollBehavior&quot;:&quot;&quot;,&quot;overscrollBehaviorBlock&quot;:&quot;&quot;,&quot;overscrollBehaviorInline&quot;:&quot;&quot;,&quot;overscrollBehaviorX&quot;:&quot;&quot;,&quot;overscrollBehaviorY&quot;:&quot;&quot;,&quot;padding&quot;:&quot;&quot;,&quot;paddingBlockEnd&quot;:&quot;&quot;,&quot;paddingBlockStart&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingInlineEnd&quot;:&quot;&quot;,&quot;paddingInlineStart&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;paddingTop&quot;:&quot;&quot;,&quot;page&quot;:&quot;&quot;,&quot;pageBreakAfter&quot;:&quot;&quot;,&quot;pageBreakBefore&quot;:&quot;&quot;,&quot;pageBreakInside&quot;:&quot;&quot;,&quot;pageOrientation&quot;:&quot;&quot;,&quot;paintOrder&quot;:&quot;&quot;,&quot;perspective&quot;:&quot;&quot;,&quot;perspectiveOrigin&quot;:&quot;&quot;,&quot;placeContent&quot;:&quot;&quot;,&quot;placeItems&quot;:&quot;&quot;,&quot;placeSelf&quot;:&quot;&quot;,&quot;pointerEvents&quot;:&quot;&quot;,&quot;position&quot;:&quot;&quot;,&quot;quotes&quot;:&quot;&quot;,&quot;r&quot;:&quot;&quot;,&quot;resize&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;rowGap&quot;:&quot;&quot;,&quot;rubyPosition&quot;:&quot;&quot;,&quot;rx&quot;:&quot;&quot;,&quot;ry&quot;:&quot;&quot;,&quot;scrollBehavior&quot;:&quot;&quot;,&quot;scrollMargin&quot;:&quot;&quot;,&quot;scrollMarginBlock&quot;:&quot;&quot;,&quot;scrollMarginBlockEnd&quot;:&quot;&quot;,&quot;scrollMarginBlockStart&quot;:&quot;&quot;,&quot;scrollMarginBottom&quot;:&quot;&quot;,&quot;scrollMarginInline&quot;:&quot;&quot;,&quot;scrollMarginInlineEnd&quot;:&quot;&quot;,&quot;scrollMarginInlineStart&quot;:&quot;&quot;,&quot;scrollMarginLeft&quot;:&quot;&quot;,&quot;scrollMarginRight&quot;:&quot;&quot;,&quot;scrollMarginTop&quot;:&quot;&quot;,&quot;scrollPadding&quot;:&quot;&quot;,&quot;scrollPaddingBlock&quot;:&quot;&quot;,&quot;scrollPaddingBlockEnd&quot;:&quot;&quot;,&quot;scrollPaddingBlockStart&quot;:&quot;&quot;,&quot;scrollPaddingBottom&quot;:&quot;&quot;,&quot;scrollPaddingInline&quot;:&quot;&quot;,&quot;scrollPaddingInlineEnd&quot;:&quot;&quot;,&quot;scrollPaddingInlineStart&quot;:&quot;&quot;,&quot;scrollPaddingLeft&quot;:&quot;&quot;,&quot;scrollPaddingRight&quot;:&quot;&quot;,&quot;scrollPaddingTop&quot;:&quot;&quot;,&quot;scrollSnapAlign&quot;:&quot;&quot;,&quot;scrollSnapStop&quot;:&quot;&quot;,&quot;scrollSnapType&quot;:&quot;&quot;,&quot;shapeImageThreshold&quot;:&quot;&quot;,&quot;shapeMargin&quot;:&quot;&quot;,&quot;shapeOutside&quot;:&quot;&quot;,&quot;shapeRendering&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;,&quot;speak&quot;:&quot;&quot;,&quot;src&quot;:&quot;&quot;,&quot;stopColor&quot;:&quot;&quot;,&quot;stopOpacity&quot;:&quot;&quot;,&quot;stroke&quot;:&quot;&quot;,&quot;strokeDasharray&quot;:&quot;&quot;,&quot;strokeDashoffset&quot;:&quot;&quot;,&quot;strokeLinecap&quot;:&quot;&quot;,&quot;strokeLinejoin&quot;:&quot;&quot;,&quot;strokeMiterlimit&quot;:&quot;&quot;,&quot;strokeOpacity&quot;:&quot;&quot;,&quot;strokeWidth&quot;:&quot;&quot;,&quot;syntax&quot;:&quot;&quot;,&quot;tabSize&quot;:&quot;&quot;,&quot;tableLayout&quot;:&quot;&quot;,&quot;textAlign&quot;:&quot;&quot;,&quot;textAlignLast&quot;:&quot;&quot;,&quot;textAnchor&quot;:&quot;&quot;,&quot;textCombineUpright&quot;:&quot;&quot;,&quot;textDecoration&quot;:&quot;&quot;,&quot;textDecorationColor&quot;:&quot;&quot;,&quot;textDecorationLine&quot;:&quot;&quot;,&quot;textDecorationSkipInk&quot;:&quot;&quot;,&quot;textDecorationStyle&quot;:&quot;&quot;,&quot;textIndent&quot;:&quot;&quot;,&quot;textOrientation&quot;:&quot;&quot;,&quot;textOverflow&quot;:&quot;&quot;,&quot;textRendering&quot;:&quot;&quot;,&quot;textShadow&quot;:&quot;&quot;,&quot;textSizeAdjust&quot;:&quot;&quot;,&quot;textTransform&quot;:&quot;&quot;,&quot;textUnderlinePosition&quot;:&quot;&quot;,&quot;top&quot;:&quot;&quot;,&quot;touchAction&quot;:&quot;&quot;,&quot;transform&quot;:&quot;&quot;,&quot;transformBox&quot;:&quot;&quot;,&quot;transformOrigin&quot;:&quot;&quot;,&quot;transformStyle&quot;:&quot;&quot;,&quot;transition&quot;:&quot;&quot;,&quot;transitionDelay&quot;:&quot;&quot;,&quot;transitionDuration&quot;:&quot;&quot;,&quot;transitionProperty&quot;:&quot;&quot;,&quot;transitionTimingFunction&quot;:&quot;&quot;,&quot;unicodeBidi&quot;:&quot;&quot;,&quot;unicodeRange&quot;:&quot;&quot;,&quot;userSelect&quot;:&quot;&quot;,&quot;userZoom&quot;:&quot;&quot;,&quot;vectorEffect&quot;:&quot;&quot;,&quot;verticalAlign&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;&quot;,&quot;webkitAlignContent&quot;:&quot;&quot;,&quot;webkitAlignItems&quot;:&quot;&quot;,&quot;webkitAlignSelf&quot;:&quot;&quot;,&quot;webkitAnimation&quot;:&quot;&quot;,&quot;webkitAnimationDelay&quot;:&quot;&quot;,&quot;webkitAnimationDirection&quot;:&quot;&quot;,&quot;webkitAnimationDuration&quot;:&quot;&quot;,&quot;webkitAnimationFillMode&quot;:&quot;&quot;,&quot;webkitAnimationIterationCount&quot;:&quot;&quot;,&quot;webkitAnimationName&quot;:&quot;&quot;,&quot;webkitAnimationPlayState&quot;:&quot;&quot;,&quot;webkitAnimationTimingFunction&quot;:&quot;&quot;,&quot;webkitAppRegion&quot;:&quot;&quot;,&quot;webkitAppearance&quot;:&quot;&quot;,&quot;webkitBackfaceVisibility&quot;:&quot;&quot;,&quot;webkitBackgroundClip&quot;:&quot;&quot;,&quot;webkitBackgroundOrigin&quot;:&quot;&quot;,&quot;webkitBackgroundSize&quot;:&quot;&quot;,&quot;webkitBorderAfter&quot;:&quot;&quot;,&quot;webkitBorderAfterColor&quot;:&quot;&quot;,&quot;webkitBorderAfterStyle&quot;:&quot;&quot;,&quot;webkitBorderAfterWidth&quot;:&quot;&quot;,&quot;webkitBorderBefore&quot;:&quot;&quot;,&quot;webkitBorderBeforeColor&quot;:&quot;&quot;,&quot;webkitBorderBeforeStyle&quot;:&quot;&quot;,&quot;webkitBorderBeforeWidth&quot;:&quot;&quot;,&quot;webkitBorderBottomLeftRadius&quot;:&quot;&quot;,&quot;webkitBorderBottomRightRadius&quot;:&quot;&quot;,&quot;webkitBorderEnd&quot;:&quot;&quot;,&quot;webkitBorderEndColor&quot;:&quot;&quot;,&quot;webkitBorderEndStyle&quot;:&quot;&quot;,&quot;webkitBorderEndWidth&quot;:&quot;&quot;,&quot;webkitBorderHorizontalSpacing&quot;:&quot;&quot;,&quot;webkitBorderImage&quot;:&quot;&quot;,&quot;webkitBorderRadius&quot;:&quot;&quot;,&quot;webkitBorderStart&quot;:&quot;&quot;,&quot;webkitBorderStartColor&quot;:&quot;&quot;,&quot;webkitBorderStartStyle&quot;:&quot;&quot;,&quot;webkitBorderStartWidth&quot;:&quot;&quot;,&quot;webkitBorderTopLeftRadius&quot;:&quot;&quot;,&quot;webkitBorderTopRightRadius&quot;:&quot;&quot;,&quot;webkitBorderVerticalSpacing&quot;:&quot;&quot;,&quot;webkitBoxAlign&quot;:&quot;&quot;,&quot;webkitBoxDecorationBreak&quot;:&quot;&quot;,&quot;webkitBoxDirection&quot;:&quot;&quot;,&quot;webkitBoxFlex&quot;:&quot;&quot;,&quot;webkitBoxOrdinalGroup&quot;:&quot;&quot;,&quot;webkitBoxOrient&quot;:&quot;&quot;,&quot;webkitBoxPack&quot;:&quot;&quot;,&quot;webkitBoxReflect&quot;:&quot;&quot;,&quot;webkitBoxShadow&quot;:&quot;&quot;,&quot;webkitBoxSizing&quot;:&quot;&quot;,&quot;webkitClipPath&quot;:&quot;&quot;,&quot;webkitColumnBreakAfter&quot;:&quot;&quot;,&quot;webkitColumnBreakBefore&quot;:&quot;&quot;,&quot;webkitColumnBreakInside&quot;:&quot;&quot;,&quot;webkitColumnCount&quot;:&quot;&quot;,&quot;webkitColumnGap&quot;:&quot;&quot;,&quot;webkitColumnRule&quot;:&quot;&quot;,&quot;webkitColumnRuleColor&quot;:&quot;&quot;,&quot;webkitColumnRuleStyle&quot;:&quot;&quot;,&quot;webkitColumnRuleWidth&quot;:&quot;&quot;,&quot;webkitColumnSpan&quot;:&quot;&quot;,&quot;webkitColumnWidth&quot;:&quot;&quot;,&quot;webkitColumns&quot;:&quot;&quot;,&quot;webkitFilter&quot;:&quot;&quot;,&quot;webkitFlex&quot;:&quot;&quot;,&quot;webkitFlexBasis&quot;:&quot;&quot;,&quot;webkitFlexDirection&quot;:&quot;&quot;,&quot;webkitFlexFlow&quot;:&quot;&quot;,&quot;webkitFlexGrow&quot;:&quot;&quot;,&quot;webkitFlexShrink&quot;:&quot;&quot;,&quot;webkitFlexWrap&quot;:&quot;&quot;,&quot;webkitFontFeatureSettings&quot;:&quot;&quot;,&quot;webkitFontSizeDelta&quot;:&quot;&quot;,&quot;webkitFontSmoothing&quot;:&quot;&quot;,&quot;webkitHighlight&quot;:&quot;&quot;,&quot;webkitHyphenateCharacter&quot;:&quot;&quot;,&quot;webkitJustifyContent&quot;:&quot;&quot;,&quot;webkitLineBreak&quot;:&quot;&quot;,&quot;webkitLineClamp&quot;:&quot;&quot;,&quot;webkitLocale&quot;:&quot;&quot;,&quot;webkitLogicalHeight&quot;:&quot;&quot;,&quot;webkitLogicalWidth&quot;:&quot;&quot;,&quot;webkitMarginAfter&quot;:&quot;&quot;,&quot;webkitMarginBefore&quot;:&quot;&quot;,&quot;webkitMarginEnd&quot;:&quot;&quot;,&quot;webkitMarginStart&quot;:&quot;&quot;,&quot;webkitMask&quot;:&quot;&quot;,&quot;webkitMaskBoxImage&quot;:&quot;&quot;,&quot;webkitMaskBoxImageOutset&quot;:&quot;&quot;,&quot;webkitMaskBoxImageRepeat&quot;:&quot;&quot;,&quot;webkitMaskBoxImageSlice&quot;:&quot;&quot;,&quot;webkitMaskBoxImageSource&quot;:&quot;&quot;,&quot;webkitMaskBoxImageWidth&quot;:&quot;&quot;,&quot;webkitMaskClip&quot;:&quot;&quot;,&quot;webkitMaskComposite&quot;:&quot;&quot;,&quot;webkitMaskImage&quot;:&quot;&quot;,&quot;webkitMaskOrigin&quot;:&quot;&quot;,&quot;webkitMaskPosition&quot;:&quot;&quot;,&quot;webkitMaskPositionX&quot;:&quot;&quot;,&quot;webkitMaskPositionY&quot;:&quot;&quot;,&quot;webkitMaskRepeat&quot;:&quot;&quot;,&quot;webkitMaskRepeatX&quot;:&quot;&quot;,&quot;webkitMaskRepeatY&quot;:&quot;&quot;,&quot;webkitMaskSize&quot;:&quot;&quot;,&quot;webkitMaxLogicalHeight&quot;:&quot;&quot;,&quot;webkitMaxLogicalWidth&quot;:&quot;&quot;,&quot;webkitMinLogicalHeight&quot;:&quot;&quot;,&quot;webkitMinLogicalWidth&quot;:&quot;&quot;,&quot;webkitOpacity&quot;:&quot;&quot;,&quot;webkitOrder&quot;:&quot;&quot;,&quot;webkitPaddingAfter&quot;:&quot;&quot;,&quot;webkitPaddingBefore&quot;:&quot;&quot;,&quot;webkitPaddingEnd&quot;:&quot;&quot;,&quot;webkitPaddingStart&quot;:&quot;&quot;,&quot;webkitPerspective&quot;:&quot;&quot;,&quot;webkitPerspectiveOrigin&quot;:&quot;&quot;,&quot;webkitPerspectiveOriginX&quot;:&quot;&quot;,&quot;webkitPerspectiveOriginY&quot;:&quot;&quot;,&quot;webkitPrintColorAdjust&quot;:&quot;&quot;,&quot;webkitRtlOrdering&quot;:&quot;&quot;,&quot;webkitRubyPosition&quot;:&quot;&quot;,&quot;webkitShapeImageThreshold&quot;:&quot;&quot;,&quot;webkitShapeMargin&quot;:&quot;&quot;,&quot;webkitShapeOutside&quot;:&quot;&quot;,&quot;webkitTapHighlightColor&quot;:&quot;&quot;,&quot;webkitTextCombine&quot;:&quot;&quot;,&quot;webkitTextDecorationsInEffect&quot;:&quot;&quot;,&quot;webkitTextEmphasis&quot;:&quot;&quot;,&quot;webkitTextEmphasisColor&quot;:&quot;&quot;,&quot;webkitTextEmphasisPosition&quot;:&quot;&quot;,&quot;webkitTextEmphasisStyle&quot;:&quot;&quot;,&quot;webkitTextFillColor&quot;:&quot;&quot;,&quot;webkitTextOrientation&quot;:&quot;&quot;,&quot;webkitTextSecurity&quot;:&quot;&quot;,&quot;webkitTextSizeAdjust&quot;:&quot;&quot;,&quot;webkitTextStroke&quot;:&quot;&quot;,&quot;webkitTextStrokeColor&quot;:&quot;&quot;,&quot;webkitTextStrokeWidth&quot;:&quot;&quot;,&quot;webkitTransform&quot;:&quot;&quot;,&quot;webkitTransformOrigin&quot;:&quot;&quot;,&quot;webkitTransformOriginX&quot;:&quot;&quot;,&quot;webkitTransformOriginY&quot;:&quot;&quot;,&quot;webkitTransformOriginZ&quot;:&quot;&quot;,&quot;webkitTransformStyle&quot;:&quot;&quot;,&quot;webkitTransition&quot;:&quot;&quot;,&quot;webkitTransitionDelay&quot;:&quot;&quot;,&quot;webkitTransitionDuration&quot;:&quot;&quot;,&quot;webkitTransitionProperty&quot;:&quot;&quot;,&quot;webkitTransitionTimingFunction&quot;:&quot;&quot;,&quot;webkitUserDrag&quot;:&quot;&quot;,&quot;webkitUserModify&quot;:&quot;&quot;,&quot;webkitUserSelect&quot;:&quot;&quot;,&quot;webkitWritingMode&quot;:&quot;&quot;,&quot;whiteSpace&quot;:&quot;&quot;,&quot;widows&quot;:&quot;&quot;,&quot;width&quot;:&quot;&quot;,&quot;willChange&quot;:&quot;&quot;,&quot;wordBreak&quot;:&quot;&quot;,&quot;wordSpacing&quot;:&quot;&quot;,&quot;wordWrap&quot;:&quot;&quot;,&quot;writingMode&quot;:&quot;&quot;,&quot;x&quot;:&quot;&quot;,&quot;y&quot;:&quot;&quot;,&quot;zIndex&quot;:&quot;&quot;,&quot;zoom&quot;:&quot;&quot;}" />
+          </attribute>
+          <attribute name="wTabIndex">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wInputType">
+            <ProcessValue datatype="text" value="submit" />
+          </attribute>
+          <attribute name="wAccessKey">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wInnerText">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wSource">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wTargetAddress">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wAlt">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPattern">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wRel">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wLinkTarget">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPlaceholder">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="Enter Key">
+        <id>e1530c1c-d3a1-46b4-9e1e-fb91b6da6522</id>
+        <type>WebElement</type>
+        <basetype>WebElement</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="wX">
+            <ProcessValue datatype="number" value="482" />
+          </attribute>
+          <attribute name="wY">
+            <ProcessValue datatype="number" value="451" />
+          </attribute>
+          <attribute name="wWidth">
+            <ProcessValue datatype="number" value="246" />
+          </attribute>
+          <attribute name="wHeight">
+            <ProcessValue datatype="number" value="46" />
+          </attribute>
+          <attribute name="wClientX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wClientY">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="wClientWidth">
+            <ProcessValue datatype="number" value="246" />
+          </attribute>
+          <attribute name="wClientHeight">
+            <ProcessValue datatype="number" value="44" />
+          </attribute>
+          <attribute name="wOffsetX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wOffsetY">
+            <ProcessValue datatype="number" value="134" />
+          </attribute>
+          <attribute name="wOffsetWidth">
+            <ProcessValue datatype="number" value="246" />
+          </attribute>
+          <attribute name="wOffsetHeight">
+            <ProcessValue datatype="number" value="46" />
+          </attribute>
+          <attribute name="wScrollX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wScrollY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wScrollWidth">
+            <ProcessValue datatype="number" value="246" />
+          </attribute>
+          <attribute name="wScrollHeight">
+            <ProcessValue datatype="number" value="44" />
+          </attribute>
+          <attribute name="wId" inuse="True">
+            <ProcessValue datatype="text" value="react-select-2-option-1-43" />
+          </attribute>
+          <attribute name="wElementType" inuse="True">
+            <ProcessValue datatype="text" value="DIV" />
+          </attribute>
+          <attribute name="wXPath" inuse="True">
+            <ProcessValue datatype="text" value="/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/MAIN[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/FORM[1]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]" />
+          </attribute>
+          <attribute name="wCssSelector">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wValue">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPageAddress" inuse="True">
+            <ProcessValue datatype="text" value="https://www.xe.com/currencyconverter/convert/?Amount=1&amp;From=EUR&amp;To=INR" />
+          </attribute>
+          <attribute name="wClass">
+            <ProcessValue datatype="text" value="css-1rwax4-option converterform-dropdown__option converterform-dropdown__option--is-focused" />
+          </attribute>
+          <attribute name="wChildCount">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="wIsEditable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="wStyle">
+            <ProcessValue datatype="text" value="{&quot;alignContent&quot;:&quot;&quot;,&quot;alignItems&quot;:&quot;&quot;,&quot;alignSelf&quot;:&quot;&quot;,&quot;alignmentBaseline&quot;:&quot;&quot;,&quot;all&quot;:&quot;&quot;,&quot;animation&quot;:&quot;&quot;,&quot;animationDelay&quot;:&quot;&quot;,&quot;animationDirection&quot;:&quot;&quot;,&quot;animationDuration&quot;:&quot;&quot;,&quot;animationFillMode&quot;:&quot;&quot;,&quot;animationIterationCount&quot;:&quot;&quot;,&quot;animationName&quot;:&quot;&quot;,&quot;animationPlayState&quot;:&quot;&quot;,&quot;animationTimingFunction&quot;:&quot;&quot;,&quot;appearance&quot;:&quot;&quot;,&quot;backdropFilter&quot;:&quot;&quot;,&quot;backfaceVisibility&quot;:&quot;&quot;,&quot;background&quot;:&quot;&quot;,&quot;backgroundAttachment&quot;:&quot;&quot;,&quot;backgroundBlendMode&quot;:&quot;&quot;,&quot;backgroundClip&quot;:&quot;&quot;,&quot;backgroundColor&quot;:&quot;&quot;,&quot;backgroundImage&quot;:&quot;&quot;,&quot;backgroundOrigin&quot;:&quot;&quot;,&quot;backgroundPosition&quot;:&quot;&quot;,&quot;backgroundPositionX&quot;:&quot;&quot;,&quot;backgroundPositionY&quot;:&quot;&quot;,&quot;backgroundRepeat&quot;:&quot;&quot;,&quot;backgroundRepeatX&quot;:&quot;&quot;,&quot;backgroundRepeatY&quot;:&quot;&quot;,&quot;backgroundSize&quot;:&quot;&quot;,&quot;baselineShift&quot;:&quot;&quot;,&quot;blockSize&quot;:&quot;&quot;,&quot;border&quot;:&quot;&quot;,&quot;borderBlockEnd&quot;:&quot;&quot;,&quot;borderBlockEndColor&quot;:&quot;&quot;,&quot;borderBlockEndStyle&quot;:&quot;&quot;,&quot;borderBlockEndWidth&quot;:&quot;&quot;,&quot;borderBlockStart&quot;:&quot;&quot;,&quot;borderBlockStartColor&quot;:&quot;&quot;,&quot;borderBlockStartStyle&quot;:&quot;&quot;,&quot;borderBlockStartWidth&quot;:&quot;&quot;,&quot;borderBottom&quot;:&quot;&quot;,&quot;borderBottomColor&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;borderBottomStyle&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderCollapse&quot;:&quot;&quot;,&quot;borderColor&quot;:&quot;&quot;,&quot;borderImage&quot;:&quot;&quot;,&quot;borderImageOutset&quot;:&quot;&quot;,&quot;borderImageRepeat&quot;:&quot;&quot;,&quot;borderImageSlice&quot;:&quot;&quot;,&quot;borderImageSource&quot;:&quot;&quot;,&quot;borderImageWidth&quot;:&quot;&quot;,&quot;borderInlineEnd&quot;:&quot;&quot;,&quot;borderInlineEndColor&quot;:&quot;&quot;,&quot;borderInlineEndStyle&quot;:&quot;&quot;,&quot;borderInlineEndWidth&quot;:&quot;&quot;,&quot;borderInlineStart&quot;:&quot;&quot;,&quot;borderInlineStartColor&quot;:&quot;&quot;,&quot;borderInlineStartStyle&quot;:&quot;&quot;,&quot;borderInlineStartWidth&quot;:&quot;&quot;,&quot;borderLeft&quot;:&quot;&quot;,&quot;borderLeftColor&quot;:&quot;&quot;,&quot;borderLeftStyle&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRadius&quot;:&quot;&quot;,&quot;borderRight&quot;:&quot;&quot;,&quot;borderRightColor&quot;:&quot;&quot;,&quot;borderRightStyle&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderSpacing&quot;:&quot;&quot;,&quot;borderStyle&quot;:&quot;&quot;,&quot;borderTop&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;&quot;,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderTopStyle&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderWidth&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;&quot;,&quot;boxSizing&quot;:&quot;&quot;,&quot;breakAfter&quot;:&quot;&quot;,&quot;breakBefore&quot;:&quot;&quot;,&quot;breakInside&quot;:&quot;&quot;,&quot;bufferedRendering&quot;:&quot;&quot;,&quot;captionSide&quot;:&quot;&quot;,&quot;caretColor&quot;:&quot;&quot;,&quot;clear&quot;:&quot;&quot;,&quot;clip&quot;:&quot;&quot;,&quot;clipPath&quot;:&quot;&quot;,&quot;clipRule&quot;:&quot;&quot;,&quot;color&quot;:&quot;&quot;,&quot;colorInterpolation&quot;:&quot;&quot;,&quot;colorInterpolationFilters&quot;:&quot;&quot;,&quot;colorRendering&quot;:&quot;&quot;,&quot;colorScheme&quot;:&quot;&quot;,&quot;columnCount&quot;:&quot;&quot;,&quot;columnFill&quot;:&quot;&quot;,&quot;columnGap&quot;:&quot;&quot;,&quot;columnRule&quot;:&quot;&quot;,&quot;columnRuleColor&quot;:&quot;&quot;,&quot;columnRuleStyle&quot;:&quot;&quot;,&quot;columnRuleWidth&quot;:&quot;&quot;,&quot;columnSpan&quot;:&quot;&quot;,&quot;columnWidth&quot;:&quot;&quot;,&quot;columns&quot;:&quot;&quot;,&quot;contain&quot;:&quot;&quot;,&quot;containIntrinsicSize&quot;:&quot;&quot;,&quot;content&quot;:&quot;&quot;,&quot;contentVisibility&quot;:&quot;&quot;,&quot;counterIncrement&quot;:&quot;&quot;,&quot;counterReset&quot;:&quot;&quot;,&quot;counterSet&quot;:&quot;&quot;,&quot;cursor&quot;:&quot;&quot;,&quot;cx&quot;:&quot;&quot;,&quot;cy&quot;:&quot;&quot;,&quot;d&quot;:&quot;&quot;,&quot;direction&quot;:&quot;&quot;,&quot;display&quot;:&quot;&quot;,&quot;dominantBaseline&quot;:&quot;&quot;,&quot;emptyCells&quot;:&quot;&quot;,&quot;fill&quot;:&quot;&quot;,&quot;fillOpacity&quot;:&quot;&quot;,&quot;fillRule&quot;:&quot;&quot;,&quot;filter&quot;:&quot;&quot;,&quot;flex&quot;:&quot;&quot;,&quot;flexBasis&quot;:&quot;&quot;,&quot;flexDirection&quot;:&quot;&quot;,&quot;flexFlow&quot;:&quot;&quot;,&quot;flexGrow&quot;:&quot;&quot;,&quot;flexShrink&quot;:&quot;&quot;,&quot;flexWrap&quot;:&quot;&quot;,&quot;float&quot;:&quot;&quot;,&quot;floodColor&quot;:&quot;&quot;,&quot;floodOpacity&quot;:&quot;&quot;,&quot;font&quot;:&quot;&quot;,&quot;fontDisplay&quot;:&quot;&quot;,&quot;fontFamily&quot;:&quot;&quot;,&quot;fontFeatureSettings&quot;:&quot;&quot;,&quot;fontKerning&quot;:&quot;&quot;,&quot;fontOpticalSizing&quot;:&quot;&quot;,&quot;fontSize&quot;:&quot;&quot;,&quot;fontStretch&quot;:&quot;&quot;,&quot;fontStyle&quot;:&quot;&quot;,&quot;fontVariant&quot;:&quot;&quot;,&quot;fontVariantCaps&quot;:&quot;&quot;,&quot;fontVariantEastAsian&quot;:&quot;&quot;,&quot;fontVariantLigatures&quot;:&quot;&quot;,&quot;fontVariantNumeric&quot;:&quot;&quot;,&quot;fontVariationSettings&quot;:&quot;&quot;,&quot;fontWeight&quot;:&quot;&quot;,&quot;gap&quot;:&quot;&quot;,&quot;grid&quot;:&quot;&quot;,&quot;gridArea&quot;:&quot;&quot;,&quot;gridAutoColumns&quot;:&quot;&quot;,&quot;gridAutoFlow&quot;:&quot;&quot;,&quot;gridAutoRows&quot;:&quot;&quot;,&quot;gridColumn&quot;:&quot;&quot;,&quot;gridColumnEnd&quot;:&quot;&quot;,&quot;gridColumnGap&quot;:&quot;&quot;,&quot;gridColumnStart&quot;:&quot;&quot;,&quot;gridGap&quot;:&quot;&quot;,&quot;gridRow&quot;:&quot;&quot;,&quot;gridRowEnd&quot;:&quot;&quot;,&quot;gridRowGap&quot;:&quot;&quot;,&quot;gridRowStart&quot;:&quot;&quot;,&quot;gridTemplate&quot;:&quot;&quot;,&quot;gridTemplateAreas&quot;:&quot;&quot;,&quot;gridTemplateColumns&quot;:&quot;&quot;,&quot;gridTemplateRows&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;hyphens&quot;:&quot;&quot;,&quot;imageOrientation&quot;:&quot;&quot;,&quot;imageRendering&quot;:&quot;&quot;,&quot;inherits&quot;:&quot;&quot;,&quot;initialValue&quot;:&quot;&quot;,&quot;inlineSize&quot;:&quot;&quot;,&quot;isolation&quot;:&quot;&quot;,&quot;justifyContent&quot;:&quot;&quot;,&quot;justifyItems&quot;:&quot;&quot;,&quot;justifySelf&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;letterSpacing&quot;:&quot;&quot;,&quot;lightingColor&quot;:&quot;&quot;,&quot;lineBreak&quot;:&quot;&quot;,&quot;lineHeight&quot;:&quot;&quot;,&quot;listStyle&quot;:&quot;&quot;,&quot;listStyleImage&quot;:&quot;&quot;,&quot;listStylePosition&quot;:&quot;&quot;,&quot;listStyleType&quot;:&quot;&quot;,&quot;margin&quot;:&quot;&quot;,&quot;marginBlockEnd&quot;:&quot;&quot;,&quot;marginBlockStart&quot;:&quot;&quot;,&quot;marginBottom&quot;:&quot;&quot;,&quot;marginInlineEnd&quot;:&quot;&quot;,&quot;marginInlineStart&quot;:&quot;&quot;,&quot;marginLeft&quot;:&quot;&quot;,&quot;marginRight&quot;:&quot;&quot;,&quot;marginTop&quot;:&quot;&quot;,&quot;marker&quot;:&quot;&quot;,&quot;markerEnd&quot;:&quot;&quot;,&quot;markerMid&quot;:&quot;&quot;,&quot;markerStart&quot;:&quot;&quot;,&quot;mask&quot;:&quot;&quot;,&quot;maskType&quot;:&quot;&quot;,&quot;maxBlockSize&quot;:&quot;&quot;,&quot;maxHeight&quot;:&quot;&quot;,&quot;maxInlineSize&quot;:&quot;&quot;,&quot;maxWidth&quot;:&quot;&quot;,&quot;maxZoom&quot;:&quot;&quot;,&quot;minBlockSize&quot;:&quot;&quot;,&quot;minHeight&quot;:&quot;&quot;,&quot;minInlineSize&quot;:&quot;&quot;,&quot;minWidth&quot;:&quot;&quot;,&quot;minZoom&quot;:&quot;&quot;,&quot;mixBlendMode&quot;:&quot;&quot;,&quot;objectFit&quot;:&quot;&quot;,&quot;objectPosition&quot;:&quot;&quot;,&quot;offset&quot;:&quot;&quot;,&quot;offsetDistance&quot;:&quot;&quot;,&quot;offsetPath&quot;:&quot;&quot;,&quot;offsetRotate&quot;:&quot;&quot;,&quot;opacity&quot;:&quot;&quot;,&quot;order&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;&quot;,&quot;orphans&quot;:&quot;&quot;,&quot;outline&quot;:&quot;&quot;,&quot;outlineColor&quot;:&quot;&quot;,&quot;outlineOffset&quot;:&quot;&quot;,&quot;outlineStyle&quot;:&quot;&quot;,&quot;outlineWidth&quot;:&quot;&quot;,&quot;overflow&quot;:&quot;&quot;,&quot;overflowAnchor&quot;:&quot;&quot;,&quot;overflowWrap&quot;:&quot;&quot;,&quot;overflowX&quot;:&quot;&quot;,&quot;overflowY&quot;:&quot;&quot;,&quot;overscrollBehavior&quot;:&quot;&quot;,&quot;overscrollBehaviorBlock&quot;:&quot;&quot;,&quot;overscrollBehaviorInline&quot;:&quot;&quot;,&quot;overscrollBehaviorX&quot;:&quot;&quot;,&quot;overscrollBehaviorY&quot;:&quot;&quot;,&quot;padding&quot;:&quot;&quot;,&quot;paddingBlockEnd&quot;:&quot;&quot;,&quot;paddingBlockStart&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingInlineEnd&quot;:&quot;&quot;,&quot;paddingInlineStart&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;paddingTop&quot;:&quot;&quot;,&quot;page&quot;:&quot;&quot;,&quot;pageBreakAfter&quot;:&quot;&quot;,&quot;pageBreakBefore&quot;:&quot;&quot;,&quot;pageBreakInside&quot;:&quot;&quot;,&quot;pageOrientation&quot;:&quot;&quot;,&quot;paintOrder&quot;:&quot;&quot;,&quot;perspective&quot;:&quot;&quot;,&quot;perspectiveOrigin&quot;:&quot;&quot;,&quot;placeContent&quot;:&quot;&quot;,&quot;placeItems&quot;:&quot;&quot;,&quot;placeSelf&quot;:&quot;&quot;,&quot;pointerEvents&quot;:&quot;&quot;,&quot;position&quot;:&quot;&quot;,&quot;quotes&quot;:&quot;&quot;,&quot;r&quot;:&quot;&quot;,&quot;resize&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;rowGap&quot;:&quot;&quot;,&quot;rubyPosition&quot;:&quot;&quot;,&quot;rx&quot;:&quot;&quot;,&quot;ry&quot;:&quot;&quot;,&quot;scrollBehavior&quot;:&quot;&quot;,&quot;scrollMargin&quot;:&quot;&quot;,&quot;scrollMarginBlock&quot;:&quot;&quot;,&quot;scrollMarginBlockEnd&quot;:&quot;&quot;,&quot;scrollMarginBlockStart&quot;:&quot;&quot;,&quot;scrollMarginBottom&quot;:&quot;&quot;,&quot;scrollMarginInline&quot;:&quot;&quot;,&quot;scrollMarginInlineEnd&quot;:&quot;&quot;,&quot;scrollMarginInlineStart&quot;:&quot;&quot;,&quot;scrollMarginLeft&quot;:&quot;&quot;,&quot;scrollMarginRight&quot;:&quot;&quot;,&quot;scrollMarginTop&quot;:&quot;&quot;,&quot;scrollPadding&quot;:&quot;&quot;,&quot;scrollPaddingBlock&quot;:&quot;&quot;,&quot;scrollPaddingBlockEnd&quot;:&quot;&quot;,&quot;scrollPaddingBlockStart&quot;:&quot;&quot;,&quot;scrollPaddingBottom&quot;:&quot;&quot;,&quot;scrollPaddingInline&quot;:&quot;&quot;,&quot;scrollPaddingInlineEnd&quot;:&quot;&quot;,&quot;scrollPaddingInlineStart&quot;:&quot;&quot;,&quot;scrollPaddingLeft&quot;:&quot;&quot;,&quot;scrollPaddingRight&quot;:&quot;&quot;,&quot;scrollPaddingTop&quot;:&quot;&quot;,&quot;scrollSnapAlign&quot;:&quot;&quot;,&quot;scrollSnapStop&quot;:&quot;&quot;,&quot;scrollSnapType&quot;:&quot;&quot;,&quot;shapeImageThreshold&quot;:&quot;&quot;,&quot;shapeMargin&quot;:&quot;&quot;,&quot;shapeOutside&quot;:&quot;&quot;,&quot;shapeRendering&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;,&quot;speak&quot;:&quot;&quot;,&quot;src&quot;:&quot;&quot;,&quot;stopColor&quot;:&quot;&quot;,&quot;stopOpacity&quot;:&quot;&quot;,&quot;stroke&quot;:&quot;&quot;,&quot;strokeDasharray&quot;:&quot;&quot;,&quot;strokeDashoffset&quot;:&quot;&quot;,&quot;strokeLinecap&quot;:&quot;&quot;,&quot;strokeLinejoin&quot;:&quot;&quot;,&quot;strokeMiterlimit&quot;:&quot;&quot;,&quot;strokeOpacity&quot;:&quot;&quot;,&quot;strokeWidth&quot;:&quot;&quot;,&quot;syntax&quot;:&quot;&quot;,&quot;tabSize&quot;:&quot;&quot;,&quot;tableLayout&quot;:&quot;&quot;,&quot;textAlign&quot;:&quot;&quot;,&quot;textAlignLast&quot;:&quot;&quot;,&quot;textAnchor&quot;:&quot;&quot;,&quot;textCombineUpright&quot;:&quot;&quot;,&quot;textDecoration&quot;:&quot;&quot;,&quot;textDecorationColor&quot;:&quot;&quot;,&quot;textDecorationLine&quot;:&quot;&quot;,&quot;textDecorationSkipInk&quot;:&quot;&quot;,&quot;textDecorationStyle&quot;:&quot;&quot;,&quot;textIndent&quot;:&quot;&quot;,&quot;textOrientation&quot;:&quot;&quot;,&quot;textOverflow&quot;:&quot;&quot;,&quot;textRendering&quot;:&quot;&quot;,&quot;textShadow&quot;:&quot;&quot;,&quot;textSizeAdjust&quot;:&quot;&quot;,&quot;textTransform&quot;:&quot;&quot;,&quot;textUnderlinePosition&quot;:&quot;&quot;,&quot;top&quot;:&quot;&quot;,&quot;touchAction&quot;:&quot;&quot;,&quot;transform&quot;:&quot;&quot;,&quot;transformBox&quot;:&quot;&quot;,&quot;transformOrigin&quot;:&quot;&quot;,&quot;transformStyle&quot;:&quot;&quot;,&quot;transition&quot;:&quot;&quot;,&quot;transitionDelay&quot;:&quot;&quot;,&quot;transitionDuration&quot;:&quot;&quot;,&quot;transitionProperty&quot;:&quot;&quot;,&quot;transitionTimingFunction&quot;:&quot;&quot;,&quot;unicodeBidi&quot;:&quot;&quot;,&quot;unicodeRange&quot;:&quot;&quot;,&quot;userSelect&quot;:&quot;&quot;,&quot;userZoom&quot;:&quot;&quot;,&quot;vectorEffect&quot;:&quot;&quot;,&quot;verticalAlign&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;&quot;,&quot;webkitAlignContent&quot;:&quot;&quot;,&quot;webkitAlignItems&quot;:&quot;&quot;,&quot;webkitAlignSelf&quot;:&quot;&quot;,&quot;webkitAnimation&quot;:&quot;&quot;,&quot;webkitAnimationDelay&quot;:&quot;&quot;,&quot;webkitAnimationDirection&quot;:&quot;&quot;,&quot;webkitAnimationDuration&quot;:&quot;&quot;,&quot;webkitAnimationFillMode&quot;:&quot;&quot;,&quot;webkitAnimationIterationCount&quot;:&quot;&quot;,&quot;webkitAnimationName&quot;:&quot;&quot;,&quot;webkitAnimationPlayState&quot;:&quot;&quot;,&quot;webkitAnimationTimingFunction&quot;:&quot;&quot;,&quot;webkitAppRegion&quot;:&quot;&quot;,&quot;webkitAppearance&quot;:&quot;&quot;,&quot;webkitBackfaceVisibility&quot;:&quot;&quot;,&quot;webkitBackgroundClip&quot;:&quot;&quot;,&quot;webkitBackgroundOrigin&quot;:&quot;&quot;,&quot;webkitBackgroundSize&quot;:&quot;&quot;,&quot;webkitBorderAfter&quot;:&quot;&quot;,&quot;webkitBorderAfterColor&quot;:&quot;&quot;,&quot;webkitBorderAfterStyle&quot;:&quot;&quot;,&quot;webkitBorderAfterWidth&quot;:&quot;&quot;,&quot;webkitBorderBefore&quot;:&quot;&quot;,&quot;webkitBorderBeforeColor&quot;:&quot;&quot;,&quot;webkitBorderBeforeStyle&quot;:&quot;&quot;,&quot;webkitBorderBeforeWidth&quot;:&quot;&quot;,&quot;webkitBorderBottomLeftRadius&quot;:&quot;&quot;,&quot;webkitBorderBottomRightRadius&quot;:&quot;&quot;,&quot;webkitBorderEnd&quot;:&quot;&quot;,&quot;webkitBorderEndColor&quot;:&quot;&quot;,&quot;webkitBorderEndStyle&quot;:&quot;&quot;,&quot;webkitBorderEndWidth&quot;:&quot;&quot;,&quot;webkitBorderHorizontalSpacing&quot;:&quot;&quot;,&quot;webkitBorderImage&quot;:&quot;&quot;,&quot;webkitBorderRadius&quot;:&quot;&quot;,&quot;webkitBorderStart&quot;:&quot;&quot;,&quot;webkitBorderStartColor&quot;:&quot;&quot;,&quot;webkitBorderStartStyle&quot;:&quot;&quot;,&quot;webkitBorderStartWidth&quot;:&quot;&quot;,&quot;webkitBorderTopLeftRadius&quot;:&quot;&quot;,&quot;webkitBorderTopRightRadius&quot;:&quot;&quot;,&quot;webkitBorderVerticalSpacing&quot;:&quot;&quot;,&quot;webkitBoxAlign&quot;:&quot;&quot;,&quot;webkitBoxDecorationBreak&quot;:&quot;&quot;,&quot;webkitBoxDirection&quot;:&quot;&quot;,&quot;webkitBoxFlex&quot;:&quot;&quot;,&quot;webkitBoxOrdinalGroup&quot;:&quot;&quot;,&quot;webkitBoxOrient&quot;:&quot;&quot;,&quot;webkitBoxPack&quot;:&quot;&quot;,&quot;webkitBoxReflect&quot;:&quot;&quot;,&quot;webkitBoxShadow&quot;:&quot;&quot;,&quot;webkitBoxSizing&quot;:&quot;&quot;,&quot;webkitClipPath&quot;:&quot;&quot;,&quot;webkitColumnBreakAfter&quot;:&quot;&quot;,&quot;webkitColumnBreakBefore&quot;:&quot;&quot;,&quot;webkitColumnBreakInside&quot;:&quot;&quot;,&quot;webkitColumnCount&quot;:&quot;&quot;,&quot;webkitColumnGap&quot;:&quot;&quot;,&quot;webkitColumnRule&quot;:&quot;&quot;,&quot;webkitColumnRuleColor&quot;:&quot;&quot;,&quot;webkitColumnRuleStyle&quot;:&quot;&quot;,&quot;webkitColumnRuleWidth&quot;:&quot;&quot;,&quot;webkitColumnSpan&quot;:&quot;&quot;,&quot;webkitColumnWidth&quot;:&quot;&quot;,&quot;webkitColumns&quot;:&quot;&quot;,&quot;webkitFilter&quot;:&quot;&quot;,&quot;webkitFlex&quot;:&quot;&quot;,&quot;webkitFlexBasis&quot;:&quot;&quot;,&quot;webkitFlexDirection&quot;:&quot;&quot;,&quot;webkitFlexFlow&quot;:&quot;&quot;,&quot;webkitFlexGrow&quot;:&quot;&quot;,&quot;webkitFlexShrink&quot;:&quot;&quot;,&quot;webkitFlexWrap&quot;:&quot;&quot;,&quot;webkitFontFeatureSettings&quot;:&quot;&quot;,&quot;webkitFontSizeDelta&quot;:&quot;&quot;,&quot;webkitFontSmoothing&quot;:&quot;&quot;,&quot;webkitHighlight&quot;:&quot;&quot;,&quot;webkitHyphenateCharacter&quot;:&quot;&quot;,&quot;webkitJustifyContent&quot;:&quot;&quot;,&quot;webkitLineBreak&quot;:&quot;&quot;,&quot;webkitLineClamp&quot;:&quot;&quot;,&quot;webkitLocale&quot;:&quot;&quot;,&quot;webkitLogicalHeight&quot;:&quot;&quot;,&quot;webkitLogicalWidth&quot;:&quot;&quot;,&quot;webkitMarginAfter&quot;:&quot;&quot;,&quot;webkitMarginBefore&quot;:&quot;&quot;,&quot;webkitMarginEnd&quot;:&quot;&quot;,&quot;webkitMarginStart&quot;:&quot;&quot;,&quot;webkitMask&quot;:&quot;&quot;,&quot;webkitMaskBoxImage&quot;:&quot;&quot;,&quot;webkitMaskBoxImageOutset&quot;:&quot;&quot;,&quot;webkitMaskBoxImageRepeat&quot;:&quot;&quot;,&quot;webkitMaskBoxImageSlice&quot;:&quot;&quot;,&quot;webkitMaskBoxImageSource&quot;:&quot;&quot;,&quot;webkitMaskBoxImageWidth&quot;:&quot;&quot;,&quot;webkitMaskClip&quot;:&quot;&quot;,&quot;webkitMaskComposite&quot;:&quot;&quot;,&quot;webkitMaskImage&quot;:&quot;&quot;,&quot;webkitMaskOrigin&quot;:&quot;&quot;,&quot;webkitMaskPosition&quot;:&quot;&quot;,&quot;webkitMaskPositionX&quot;:&quot;&quot;,&quot;webkitMaskPositionY&quot;:&quot;&quot;,&quot;webkitMaskRepeat&quot;:&quot;&quot;,&quot;webkitMaskRepeatX&quot;:&quot;&quot;,&quot;webkitMaskRepeatY&quot;:&quot;&quot;,&quot;webkitMaskSize&quot;:&quot;&quot;,&quot;webkitMaxLogicalHeight&quot;:&quot;&quot;,&quot;webkitMaxLogicalWidth&quot;:&quot;&quot;,&quot;webkitMinLogicalHeight&quot;:&quot;&quot;,&quot;webkitMinLogicalWidth&quot;:&quot;&quot;,&quot;webkitOpacity&quot;:&quot;&quot;,&quot;webkitOrder&quot;:&quot;&quot;,&quot;webkitPaddingAfter&quot;:&quot;&quot;,&quot;webkitPaddingBefore&quot;:&quot;&quot;,&quot;webkitPaddingEnd&quot;:&quot;&quot;,&quot;webkitPaddingStart&quot;:&quot;&quot;,&quot;webkitPerspective&quot;:&quot;&quot;,&quot;webkitPerspectiveOrigin&quot;:&quot;&quot;,&quot;webkitPerspectiveOriginX&quot;:&quot;&quot;,&quot;webkitPerspectiveOriginY&quot;:&quot;&quot;,&quot;webkitPrintColorAdjust&quot;:&quot;&quot;,&quot;webkitRtlOrdering&quot;:&quot;&quot;,&quot;webkitRubyPosition&quot;:&quot;&quot;,&quot;webkitShapeImageThreshold&quot;:&quot;&quot;,&quot;webkitShapeMargin&quot;:&quot;&quot;,&quot;webkitShapeOutside&quot;:&quot;&quot;,&quot;webkitTapHighlightColor&quot;:&quot;&quot;,&quot;webkitTextCombine&quot;:&quot;&quot;,&quot;webkitTextDecorationsInEffect&quot;:&quot;&quot;,&quot;webkitTextEmphasis&quot;:&quot;&quot;,&quot;webkitTextEmphasisColor&quot;:&quot;&quot;,&quot;webkitTextEmphasisPosition&quot;:&quot;&quot;,&quot;webkitTextEmphasisStyle&quot;:&quot;&quot;,&quot;webkitTextFillColor&quot;:&quot;&quot;,&quot;webkitTextOrientation&quot;:&quot;&quot;,&quot;webkitTextSecurity&quot;:&quot;&quot;,&quot;webkitTextSizeAdjust&quot;:&quot;&quot;,&quot;webkitTextStroke&quot;:&quot;&quot;,&quot;webkitTextStrokeColor&quot;:&quot;&quot;,&quot;webkitTextStrokeWidth&quot;:&quot;&quot;,&quot;webkitTransform&quot;:&quot;&quot;,&quot;webkitTransformOrigin&quot;:&quot;&quot;,&quot;webkitTransformOriginX&quot;:&quot;&quot;,&quot;webkitTransformOriginY&quot;:&quot;&quot;,&quot;webkitTransformOriginZ&quot;:&quot;&quot;,&quot;webkitTransformStyle&quot;:&quot;&quot;,&quot;webkitTransition&quot;:&quot;&quot;,&quot;webkitTransitionDelay&quot;:&quot;&quot;,&quot;webkitTransitionDuration&quot;:&quot;&quot;,&quot;webkitTransitionProperty&quot;:&quot;&quot;,&quot;webkitTransitionTimingFunction&quot;:&quot;&quot;,&quot;webkitUserDrag&quot;:&quot;&quot;,&quot;webkitUserModify&quot;:&quot;&quot;,&quot;webkitUserSelect&quot;:&quot;&quot;,&quot;webkitWritingMode&quot;:&quot;&quot;,&quot;whiteSpace&quot;:&quot;&quot;,&quot;widows&quot;:&quot;&quot;,&quot;width&quot;:&quot;&quot;,&quot;willChange&quot;:&quot;&quot;,&quot;wordBreak&quot;:&quot;&quot;,&quot;wordSpacing&quot;:&quot;&quot;,&quot;wordWrap&quot;:&quot;&quot;,&quot;writingMode&quot;:&quot;&quot;,&quot;x&quot;:&quot;&quot;,&quot;y&quot;:&quot;&quot;,&quot;zIndex&quot;:&quot;&quot;,&quot;zoom&quot;:&quot;&quot;}" />
+          </attribute>
+          <attribute name="wTabIndex">
+            <ProcessValue datatype="number" value="-1" />
+          </attribute>
+          <attribute name="wInputType">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wAccessKey" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wInnerText">
+            <ProcessValue datatype="text" value="EUR - &#xA;Euro" />
+          </attribute>
+          <attribute name="wSource">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wTargetAddress">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wAlt">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPattern">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wRel">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wLinkTarget">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPlaceholder">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="Conversion">
+        <id>6b702d17-b03f-4563-ba3c-8d5e8427162b</id>
+        <type>WebElement</type>
+        <basetype>WebElement</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="wX">
+            <ProcessValue datatype="number" value="490" />
+          </attribute>
+          <attribute name="wY">
+            <ProcessValue datatype="number" value="229" />
+          </attribute>
+          <attribute name="wWidth">
+            <ProcessValue datatype="number" value="310" />
+          </attribute>
+          <attribute name="wHeight">
+            <ProcessValue datatype="number" value="81" />
+          </attribute>
+          <attribute name="wClientX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wClientY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wClientWidth">
+            <ProcessValue datatype="number" value="311" />
+          </attribute>
+          <attribute name="wClientHeight">
+            <ProcessValue datatype="number" value="81" />
+          </attribute>
+          <attribute name="wOffsetX">
+            <ProcessValue datatype="number" value="491" />
+          </attribute>
+          <attribute name="wOffsetY">
+            <ProcessValue datatype="number" value="339" />
+          </attribute>
+          <attribute name="wOffsetWidth">
+            <ProcessValue datatype="number" value="311" />
+          </attribute>
+          <attribute name="wOffsetHeight">
+            <ProcessValue datatype="number" value="81" />
+          </attribute>
+          <attribute name="wScrollX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wScrollY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wScrollWidth">
+            <ProcessValue datatype="number" value="311" />
+          </attribute>
+          <attribute name="wScrollHeight">
+            <ProcessValue datatype="number" value="96" />
+          </attribute>
+          <attribute name="wElementType" inuse="True">
+            <ProcessValue datatype="text" value="SPAN" />
+          </attribute>
+          <attribute name="wXPath" inuse="True">
+            <ProcessValue datatype="text" value="/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/MAIN[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/SPAN[1]" />
+          </attribute>
+          <attribute name="wCssSelector">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wValue">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPageAddress">
+            <ProcessValue datatype="text" value="https://www.xe.com/currencyconverter/convert/?Amount=22&amp;From=EUR&amp;To=INR" />
+          </attribute>
+          <attribute name="wClass">
+            <ProcessValue datatype="text" value="converterresult-toAmount" />
+          </attribute>
+          <attribute name="wChildCount">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wIsEditable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="wStyle">
+            <ProcessValue datatype="text" value="{&quot;alignContent&quot;:&quot;&quot;,&quot;alignItems&quot;:&quot;&quot;,&quot;alignSelf&quot;:&quot;&quot;,&quot;alignmentBaseline&quot;:&quot;&quot;,&quot;all&quot;:&quot;&quot;,&quot;animation&quot;:&quot;&quot;,&quot;animationDelay&quot;:&quot;&quot;,&quot;animationDirection&quot;:&quot;&quot;,&quot;animationDuration&quot;:&quot;&quot;,&quot;animationFillMode&quot;:&quot;&quot;,&quot;animationIterationCount&quot;:&quot;&quot;,&quot;animationName&quot;:&quot;&quot;,&quot;animationPlayState&quot;:&quot;&quot;,&quot;animationTimingFunction&quot;:&quot;&quot;,&quot;appearance&quot;:&quot;&quot;,&quot;backdropFilter&quot;:&quot;&quot;,&quot;backfaceVisibility&quot;:&quot;&quot;,&quot;background&quot;:&quot;&quot;,&quot;backgroundAttachment&quot;:&quot;&quot;,&quot;backgroundBlendMode&quot;:&quot;&quot;,&quot;backgroundClip&quot;:&quot;&quot;,&quot;backgroundColor&quot;:&quot;&quot;,&quot;backgroundImage&quot;:&quot;&quot;,&quot;backgroundOrigin&quot;:&quot;&quot;,&quot;backgroundPosition&quot;:&quot;&quot;,&quot;backgroundPositionX&quot;:&quot;&quot;,&quot;backgroundPositionY&quot;:&quot;&quot;,&quot;backgroundRepeat&quot;:&quot;&quot;,&quot;backgroundRepeatX&quot;:&quot;&quot;,&quot;backgroundRepeatY&quot;:&quot;&quot;,&quot;backgroundSize&quot;:&quot;&quot;,&quot;baselineShift&quot;:&quot;&quot;,&quot;blockSize&quot;:&quot;&quot;,&quot;border&quot;:&quot;&quot;,&quot;borderBlockEnd&quot;:&quot;&quot;,&quot;borderBlockEndColor&quot;:&quot;&quot;,&quot;borderBlockEndStyle&quot;:&quot;&quot;,&quot;borderBlockEndWidth&quot;:&quot;&quot;,&quot;borderBlockStart&quot;:&quot;&quot;,&quot;borderBlockStartColor&quot;:&quot;&quot;,&quot;borderBlockStartStyle&quot;:&quot;&quot;,&quot;borderBlockStartWidth&quot;:&quot;&quot;,&quot;borderBottom&quot;:&quot;&quot;,&quot;borderBottomColor&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;borderBottomStyle&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderCollapse&quot;:&quot;&quot;,&quot;borderColor&quot;:&quot;&quot;,&quot;borderImage&quot;:&quot;&quot;,&quot;borderImageOutset&quot;:&quot;&quot;,&quot;borderImageRepeat&quot;:&quot;&quot;,&quot;borderImageSlice&quot;:&quot;&quot;,&quot;borderImageSource&quot;:&quot;&quot;,&quot;borderImageWidth&quot;:&quot;&quot;,&quot;borderInlineEnd&quot;:&quot;&quot;,&quot;borderInlineEndColor&quot;:&quot;&quot;,&quot;borderInlineEndStyle&quot;:&quot;&quot;,&quot;borderInlineEndWidth&quot;:&quot;&quot;,&quot;borderInlineStart&quot;:&quot;&quot;,&quot;borderInlineStartColor&quot;:&quot;&quot;,&quot;borderInlineStartStyle&quot;:&quot;&quot;,&quot;borderInlineStartWidth&quot;:&quot;&quot;,&quot;borderLeft&quot;:&quot;&quot;,&quot;borderLeftColor&quot;:&quot;&quot;,&quot;borderLeftStyle&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRadius&quot;:&quot;&quot;,&quot;borderRight&quot;:&quot;&quot;,&quot;borderRightColor&quot;:&quot;&quot;,&quot;borderRightStyle&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderSpacing&quot;:&quot;&quot;,&quot;borderStyle&quot;:&quot;&quot;,&quot;borderTop&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;&quot;,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderTopStyle&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderWidth&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;&quot;,&quot;boxSizing&quot;:&quot;&quot;,&quot;breakAfter&quot;:&quot;&quot;,&quot;breakBefore&quot;:&quot;&quot;,&quot;breakInside&quot;:&quot;&quot;,&quot;bufferedRendering&quot;:&quot;&quot;,&quot;captionSide&quot;:&quot;&quot;,&quot;caretColor&quot;:&quot;&quot;,&quot;clear&quot;:&quot;&quot;,&quot;clip&quot;:&quot;&quot;,&quot;clipPath&quot;:&quot;&quot;,&quot;clipRule&quot;:&quot;&quot;,&quot;color&quot;:&quot;&quot;,&quot;colorInterpolation&quot;:&quot;&quot;,&quot;colorInterpolationFilters&quot;:&quot;&quot;,&quot;colorRendering&quot;:&quot;&quot;,&quot;colorScheme&quot;:&quot;&quot;,&quot;columnCount&quot;:&quot;&quot;,&quot;columnFill&quot;:&quot;&quot;,&quot;columnGap&quot;:&quot;&quot;,&quot;columnRule&quot;:&quot;&quot;,&quot;columnRuleColor&quot;:&quot;&quot;,&quot;columnRuleStyle&quot;:&quot;&quot;,&quot;columnRuleWidth&quot;:&quot;&quot;,&quot;columnSpan&quot;:&quot;&quot;,&quot;columnWidth&quot;:&quot;&quot;,&quot;columns&quot;:&quot;&quot;,&quot;contain&quot;:&quot;&quot;,&quot;containIntrinsicSize&quot;:&quot;&quot;,&quot;content&quot;:&quot;&quot;,&quot;contentVisibility&quot;:&quot;&quot;,&quot;counterIncrement&quot;:&quot;&quot;,&quot;counterReset&quot;:&quot;&quot;,&quot;counterSet&quot;:&quot;&quot;,&quot;cursor&quot;:&quot;&quot;,&quot;cx&quot;:&quot;&quot;,&quot;cy&quot;:&quot;&quot;,&quot;d&quot;:&quot;&quot;,&quot;direction&quot;:&quot;&quot;,&quot;display&quot;:&quot;&quot;,&quot;dominantBaseline&quot;:&quot;&quot;,&quot;emptyCells&quot;:&quot;&quot;,&quot;fill&quot;:&quot;&quot;,&quot;fillOpacity&quot;:&quot;&quot;,&quot;fillRule&quot;:&quot;&quot;,&quot;filter&quot;:&quot;&quot;,&quot;flex&quot;:&quot;&quot;,&quot;flexBasis&quot;:&quot;&quot;,&quot;flexDirection&quot;:&quot;&quot;,&quot;flexFlow&quot;:&quot;&quot;,&quot;flexGrow&quot;:&quot;&quot;,&quot;flexShrink&quot;:&quot;&quot;,&quot;flexWrap&quot;:&quot;&quot;,&quot;float&quot;:&quot;&quot;,&quot;floodColor&quot;:&quot;&quot;,&quot;floodOpacity&quot;:&quot;&quot;,&quot;font&quot;:&quot;&quot;,&quot;fontDisplay&quot;:&quot;&quot;,&quot;fontFamily&quot;:&quot;&quot;,&quot;fontFeatureSettings&quot;:&quot;&quot;,&quot;fontKerning&quot;:&quot;&quot;,&quot;fontOpticalSizing&quot;:&quot;&quot;,&quot;fontSize&quot;:&quot;&quot;,&quot;fontStretch&quot;:&quot;&quot;,&quot;fontStyle&quot;:&quot;&quot;,&quot;fontVariant&quot;:&quot;&quot;,&quot;fontVariantCaps&quot;:&quot;&quot;,&quot;fontVariantEastAsian&quot;:&quot;&quot;,&quot;fontVariantLigatures&quot;:&quot;&quot;,&quot;fontVariantNumeric&quot;:&quot;&quot;,&quot;fontVariationSettings&quot;:&quot;&quot;,&quot;fontWeight&quot;:&quot;&quot;,&quot;gap&quot;:&quot;&quot;,&quot;grid&quot;:&quot;&quot;,&quot;gridArea&quot;:&quot;&quot;,&quot;gridAutoColumns&quot;:&quot;&quot;,&quot;gridAutoFlow&quot;:&quot;&quot;,&quot;gridAutoRows&quot;:&quot;&quot;,&quot;gridColumn&quot;:&quot;&quot;,&quot;gridColumnEnd&quot;:&quot;&quot;,&quot;gridColumnGap&quot;:&quot;&quot;,&quot;gridColumnStart&quot;:&quot;&quot;,&quot;gridGap&quot;:&quot;&quot;,&quot;gridRow&quot;:&quot;&quot;,&quot;gridRowEnd&quot;:&quot;&quot;,&quot;gridRowGap&quot;:&quot;&quot;,&quot;gridRowStart&quot;:&quot;&quot;,&quot;gridTemplate&quot;:&quot;&quot;,&quot;gridTemplateAreas&quot;:&quot;&quot;,&quot;gridTemplateColumns&quot;:&quot;&quot;,&quot;gridTemplateRows&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;hyphens&quot;:&quot;&quot;,&quot;imageOrientation&quot;:&quot;&quot;,&quot;imageRendering&quot;:&quot;&quot;,&quot;inherits&quot;:&quot;&quot;,&quot;initialValue&quot;:&quot;&quot;,&quot;inlineSize&quot;:&quot;&quot;,&quot;isolation&quot;:&quot;&quot;,&quot;justifyContent&quot;:&quot;&quot;,&quot;justifyItems&quot;:&quot;&quot;,&quot;justifySelf&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;letterSpacing&quot;:&quot;&quot;,&quot;lightingColor&quot;:&quot;&quot;,&quot;lineBreak&quot;:&quot;&quot;,&quot;lineHeight&quot;:&quot;&quot;,&quot;listStyle&quot;:&quot;&quot;,&quot;listStyleImage&quot;:&quot;&quot;,&quot;listStylePosition&quot;:&quot;&quot;,&quot;listStyleType&quot;:&quot;&quot;,&quot;margin&quot;:&quot;&quot;,&quot;marginBlockEnd&quot;:&quot;&quot;,&quot;marginBlockStart&quot;:&quot;&quot;,&quot;marginBottom&quot;:&quot;&quot;,&quot;marginInlineEnd&quot;:&quot;&quot;,&quot;marginInlineStart&quot;:&quot;&quot;,&quot;marginLeft&quot;:&quot;&quot;,&quot;marginRight&quot;:&quot;&quot;,&quot;marginTop&quot;:&quot;&quot;,&quot;marker&quot;:&quot;&quot;,&quot;markerEnd&quot;:&quot;&quot;,&quot;markerMid&quot;:&quot;&quot;,&quot;markerStart&quot;:&quot;&quot;,&quot;mask&quot;:&quot;&quot;,&quot;maskType&quot;:&quot;&quot;,&quot;maxBlockSize&quot;:&quot;&quot;,&quot;maxHeight&quot;:&quot;&quot;,&quot;maxInlineSize&quot;:&quot;&quot;,&quot;maxWidth&quot;:&quot;&quot;,&quot;maxZoom&quot;:&quot;&quot;,&quot;minBlockSize&quot;:&quot;&quot;,&quot;minHeight&quot;:&quot;&quot;,&quot;minInlineSize&quot;:&quot;&quot;,&quot;minWidth&quot;:&quot;&quot;,&quot;minZoom&quot;:&quot;&quot;,&quot;mixBlendMode&quot;:&quot;&quot;,&quot;objectFit&quot;:&quot;&quot;,&quot;objectPosition&quot;:&quot;&quot;,&quot;offset&quot;:&quot;&quot;,&quot;offsetDistance&quot;:&quot;&quot;,&quot;offsetPath&quot;:&quot;&quot;,&quot;offsetRotate&quot;:&quot;&quot;,&quot;opacity&quot;:&quot;&quot;,&quot;order&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;&quot;,&quot;orphans&quot;:&quot;&quot;,&quot;outline&quot;:&quot;&quot;,&quot;outlineColor&quot;:&quot;&quot;,&quot;outlineOffset&quot;:&quot;&quot;,&quot;outlineStyle&quot;:&quot;&quot;,&quot;outlineWidth&quot;:&quot;&quot;,&quot;overflow&quot;:&quot;&quot;,&quot;overflowAnchor&quot;:&quot;&quot;,&quot;overflowWrap&quot;:&quot;&quot;,&quot;overflowX&quot;:&quot;&quot;,&quot;overflowY&quot;:&quot;&quot;,&quot;overscrollBehavior&quot;:&quot;&quot;,&quot;overscrollBehaviorBlock&quot;:&quot;&quot;,&quot;overscrollBehaviorInline&quot;:&quot;&quot;,&quot;overscrollBehaviorX&quot;:&quot;&quot;,&quot;overscrollBehaviorY&quot;:&quot;&quot;,&quot;padding&quot;:&quot;&quot;,&quot;paddingBlockEnd&quot;:&quot;&quot;,&quot;paddingBlockStart&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingInlineEnd&quot;:&quot;&quot;,&quot;paddingInlineStart&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;paddingTop&quot;:&quot;&quot;,&quot;page&quot;:&quot;&quot;,&quot;pageBreakAfter&quot;:&quot;&quot;,&quot;pageBreakBefore&quot;:&quot;&quot;,&quot;pageBreakInside&quot;:&quot;&quot;,&quot;pageOrientation&quot;:&quot;&quot;,&quot;paintOrder&quot;:&quot;&quot;,&quot;perspective&quot;:&quot;&quot;,&quot;perspectiveOrigin&quot;:&quot;&quot;,&quot;placeContent&quot;:&quot;&quot;,&quot;placeItems&quot;:&quot;&quot;,&quot;placeSelf&quot;:&quot;&quot;,&quot;pointerEvents&quot;:&quot;&quot;,&quot;position&quot;:&quot;&quot;,&quot;quotes&quot;:&quot;&quot;,&quot;r&quot;:&quot;&quot;,&quot;resize&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;rowGap&quot;:&quot;&quot;,&quot;rubyPosition&quot;:&quot;&quot;,&quot;rx&quot;:&quot;&quot;,&quot;ry&quot;:&quot;&quot;,&quot;scrollBehavior&quot;:&quot;&quot;,&quot;scrollMargin&quot;:&quot;&quot;,&quot;scrollMarginBlock&quot;:&quot;&quot;,&quot;scrollMarginBlockEnd&quot;:&quot;&quot;,&quot;scrollMarginBlockStart&quot;:&quot;&quot;,&quot;scrollMarginBottom&quot;:&quot;&quot;,&quot;scrollMarginInline&quot;:&quot;&quot;,&quot;scrollMarginInlineEnd&quot;:&quot;&quot;,&quot;scrollMarginInlineStart&quot;:&quot;&quot;,&quot;scrollMarginLeft&quot;:&quot;&quot;,&quot;scrollMarginRight&quot;:&quot;&quot;,&quot;scrollMarginTop&quot;:&quot;&quot;,&quot;scrollPadding&quot;:&quot;&quot;,&quot;scrollPaddingBlock&quot;:&quot;&quot;,&quot;scrollPaddingBlockEnd&quot;:&quot;&quot;,&quot;scrollPaddingBlockStart&quot;:&quot;&quot;,&quot;scrollPaddingBottom&quot;:&quot;&quot;,&quot;scrollPaddingInline&quot;:&quot;&quot;,&quot;scrollPaddingInlineEnd&quot;:&quot;&quot;,&quot;scrollPaddingInlineStart&quot;:&quot;&quot;,&quot;scrollPaddingLeft&quot;:&quot;&quot;,&quot;scrollPaddingRight&quot;:&quot;&quot;,&quot;scrollPaddingTop&quot;:&quot;&quot;,&quot;scrollSnapAlign&quot;:&quot;&quot;,&quot;scrollSnapStop&quot;:&quot;&quot;,&quot;scrollSnapType&quot;:&quot;&quot;,&quot;shapeImageThreshold&quot;:&quot;&quot;,&quot;shapeMargin&quot;:&quot;&quot;,&quot;shapeOutside&quot;:&quot;&quot;,&quot;shapeRendering&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;,&quot;speak&quot;:&quot;&quot;,&quot;src&quot;:&quot;&quot;,&quot;stopColor&quot;:&quot;&quot;,&quot;stopOpacity&quot;:&quot;&quot;,&quot;stroke&quot;:&quot;&quot;,&quot;strokeDasharray&quot;:&quot;&quot;,&quot;strokeDashoffset&quot;:&quot;&quot;,&quot;strokeLinecap&quot;:&quot;&quot;,&quot;strokeLinejoin&quot;:&quot;&quot;,&quot;strokeMiterlimit&quot;:&quot;&quot;,&quot;strokeOpacity&quot;:&quot;&quot;,&quot;strokeWidth&quot;:&quot;&quot;,&quot;syntax&quot;:&quot;&quot;,&quot;tabSize&quot;:&quot;&quot;,&quot;tableLayout&quot;:&quot;&quot;,&quot;textAlign&quot;:&quot;&quot;,&quot;textAlignLast&quot;:&quot;&quot;,&quot;textAnchor&quot;:&quot;&quot;,&quot;textCombineUpright&quot;:&quot;&quot;,&quot;textDecoration&quot;:&quot;&quot;,&quot;textDecorationColor&quot;:&quot;&quot;,&quot;textDecorationLine&quot;:&quot;&quot;,&quot;textDecorationSkipInk&quot;:&quot;&quot;,&quot;textDecorationStyle&quot;:&quot;&quot;,&quot;textIndent&quot;:&quot;&quot;,&quot;textOrientation&quot;:&quot;&quot;,&quot;textOverflow&quot;:&quot;&quot;,&quot;textRendering&quot;:&quot;&quot;,&quot;textShadow&quot;:&quot;&quot;,&quot;textSizeAdjust&quot;:&quot;&quot;,&quot;textTransform&quot;:&quot;&quot;,&quot;textUnderlinePosition&quot;:&quot;&quot;,&quot;top&quot;:&quot;&quot;,&quot;touchAction&quot;:&quot;&quot;,&quot;transform&quot;:&quot;&quot;,&quot;transformBox&quot;:&quot;&quot;,&quot;transformOrigin&quot;:&quot;&quot;,&quot;transformStyle&quot;:&quot;&quot;,&quot;transition&quot;:&quot;&quot;,&quot;transitionDelay&quot;:&quot;&quot;,&quot;transitionDuration&quot;:&quot;&quot;,&quot;transitionProperty&quot;:&quot;&quot;,&quot;transitionTimingFunction&quot;:&quot;&quot;,&quot;unicodeBidi&quot;:&quot;&quot;,&quot;unicodeRange&quot;:&quot;&quot;,&quot;userSelect&quot;:&quot;&quot;,&quot;userZoom&quot;:&quot;&quot;,&quot;vectorEffect&quot;:&quot;&quot;,&quot;verticalAlign&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;&quot;,&quot;webkitAlignContent&quot;:&quot;&quot;,&quot;webkitAlignItems&quot;:&quot;&quot;,&quot;webkitAlignSelf&quot;:&quot;&quot;,&quot;webkitAnimation&quot;:&quot;&quot;,&quot;webkitAnimationDelay&quot;:&quot;&quot;,&quot;webkitAnimationDirection&quot;:&quot;&quot;,&quot;webkitAnimationDuration&quot;:&quot;&quot;,&quot;webkitAnimationFillMode&quot;:&quot;&quot;,&quot;webkitAnimationIterationCount&quot;:&quot;&quot;,&quot;webkitAnimationName&quot;:&quot;&quot;,&quot;webkitAnimationPlayState&quot;:&quot;&quot;,&quot;webkitAnimationTimingFunction&quot;:&quot;&quot;,&quot;webkitAppRegion&quot;:&quot;&quot;,&quot;webkitAppearance&quot;:&quot;&quot;,&quot;webkitBackfaceVisibility&quot;:&quot;&quot;,&quot;webkitBackgroundClip&quot;:&quot;&quot;,&quot;webkitBackgroundOrigin&quot;:&quot;&quot;,&quot;webkitBackgroundSize&quot;:&quot;&quot;,&quot;webkitBorderAfter&quot;:&quot;&quot;,&quot;webkitBorderAfterColor&quot;:&quot;&quot;,&quot;webkitBorderAfterStyle&quot;:&quot;&quot;,&quot;webkitBorderAfterWidth&quot;:&quot;&quot;,&quot;webkitBorderBefore&quot;:&quot;&quot;,&quot;webkitBorderBeforeColor&quot;:&quot;&quot;,&quot;webkitBorderBeforeStyle&quot;:&quot;&quot;,&quot;webkitBorderBeforeWidth&quot;:&quot;&quot;,&quot;webkitBorderBottomLeftRadius&quot;:&quot;&quot;,&quot;webkitBorderBottomRightRadius&quot;:&quot;&quot;,&quot;webkitBorderEnd&quot;:&quot;&quot;,&quot;webkitBorderEndColor&quot;:&quot;&quot;,&quot;webkitBorderEndStyle&quot;:&quot;&quot;,&quot;webkitBorderEndWidth&quot;:&quot;&quot;,&quot;webkitBorderHorizontalSpacing&quot;:&quot;&quot;,&quot;webkitBorderImage&quot;:&quot;&quot;,&quot;webkitBorderRadius&quot;:&quot;&quot;,&quot;webkitBorderStart&quot;:&quot;&quot;,&quot;webkitBorderStartColor&quot;:&quot;&quot;,&quot;webkitBorderStartStyle&quot;:&quot;&quot;,&quot;webkitBorderStartWidth&quot;:&quot;&quot;,&quot;webkitBorderTopLeftRadius&quot;:&quot;&quot;,&quot;webkitBorderTopRightRadius&quot;:&quot;&quot;,&quot;webkitBorderVerticalSpacing&quot;:&quot;&quot;,&quot;webkitBoxAlign&quot;:&quot;&quot;,&quot;webkitBoxDecorationBreak&quot;:&quot;&quot;,&quot;webkitBoxDirection&quot;:&quot;&quot;,&quot;webkitBoxFlex&quot;:&quot;&quot;,&quot;webkitBoxOrdinalGroup&quot;:&quot;&quot;,&quot;webkitBoxOrient&quot;:&quot;&quot;,&quot;webkitBoxPack&quot;:&quot;&quot;,&quot;webkitBoxReflect&quot;:&quot;&quot;,&quot;webkitBoxShadow&quot;:&quot;&quot;,&quot;webkitBoxSizing&quot;:&quot;&quot;,&quot;webkitClipPath&quot;:&quot;&quot;,&quot;webkitColumnBreakAfter&quot;:&quot;&quot;,&quot;webkitColumnBreakBefore&quot;:&quot;&quot;,&quot;webkitColumnBreakInside&quot;:&quot;&quot;,&quot;webkitColumnCount&quot;:&quot;&quot;,&quot;webkitColumnGap&quot;:&quot;&quot;,&quot;webkitColumnRule&quot;:&quot;&quot;,&quot;webkitColumnRuleColor&quot;:&quot;&quot;,&quot;webkitColumnRuleStyle&quot;:&quot;&quot;,&quot;webkitColumnRuleWidth&quot;:&quot;&quot;,&quot;webkitColumnSpan&quot;:&quot;&quot;,&quot;webkitColumnWidth&quot;:&quot;&quot;,&quot;webkitColumns&quot;:&quot;&quot;,&quot;webkitFilter&quot;:&quot;&quot;,&quot;webkitFlex&quot;:&quot;&quot;,&quot;webkitFlexBasis&quot;:&quot;&quot;,&quot;webkitFlexDirection&quot;:&quot;&quot;,&quot;webkitFlexFlow&quot;:&quot;&quot;,&quot;webkitFlexGrow&quot;:&quot;&quot;,&quot;webkitFlexShrink&quot;:&quot;&quot;,&quot;webkitFlexWrap&quot;:&quot;&quot;,&quot;webkitFontFeatureSettings&quot;:&quot;&quot;,&quot;webkitFontSizeDelta&quot;:&quot;&quot;,&quot;webkitFontSmoothing&quot;:&quot;&quot;,&quot;webkitHighlight&quot;:&quot;&quot;,&quot;webkitHyphenateCharacter&quot;:&quot;&quot;,&quot;webkitJustifyContent&quot;:&quot;&quot;,&quot;webkitLineBreak&quot;:&quot;&quot;,&quot;webkitLineClamp&quot;:&quot;&quot;,&quot;webkitLocale&quot;:&quot;&quot;,&quot;webkitLogicalHeight&quot;:&quot;&quot;,&quot;webkitLogicalWidth&quot;:&quot;&quot;,&quot;webkitMarginAfter&quot;:&quot;&quot;,&quot;webkitMarginBefore&quot;:&quot;&quot;,&quot;webkitMarginEnd&quot;:&quot;&quot;,&quot;webkitMarginStart&quot;:&quot;&quot;,&quot;webkitMask&quot;:&quot;&quot;,&quot;webkitMaskBoxImage&quot;:&quot;&quot;,&quot;webkitMaskBoxImageOutset&quot;:&quot;&quot;,&quot;webkitMaskBoxImageRepeat&quot;:&quot;&quot;,&quot;webkitMaskBoxImageSlice&quot;:&quot;&quot;,&quot;webkitMaskBoxImageSource&quot;:&quot;&quot;,&quot;webkitMaskBoxImageWidth&quot;:&quot;&quot;,&quot;webkitMaskClip&quot;:&quot;&quot;,&quot;webkitMaskComposite&quot;:&quot;&quot;,&quot;webkitMaskImage&quot;:&quot;&quot;,&quot;webkitMaskOrigin&quot;:&quot;&quot;,&quot;webkitMaskPosition&quot;:&quot;&quot;,&quot;webkitMaskPositionX&quot;:&quot;&quot;,&quot;webkitMaskPositionY&quot;:&quot;&quot;,&quot;webkitMaskRepeat&quot;:&quot;&quot;,&quot;webkitMaskRepeatX&quot;:&quot;&quot;,&quot;webkitMaskRepeatY&quot;:&quot;&quot;,&quot;webkitMaskSize&quot;:&quot;&quot;,&quot;webkitMaxLogicalHeight&quot;:&quot;&quot;,&quot;webkitMaxLogicalWidth&quot;:&quot;&quot;,&quot;webkitMinLogicalHeight&quot;:&quot;&quot;,&quot;webkitMinLogicalWidth&quot;:&quot;&quot;,&quot;webkitOpacity&quot;:&quot;&quot;,&quot;webkitOrder&quot;:&quot;&quot;,&quot;webkitPaddingAfter&quot;:&quot;&quot;,&quot;webkitPaddingBefore&quot;:&quot;&quot;,&quot;webkitPaddingEnd&quot;:&quot;&quot;,&quot;webkitPaddingStart&quot;:&quot;&quot;,&quot;webkitPerspective&quot;:&quot;&quot;,&quot;webkitPerspectiveOrigin&quot;:&quot;&quot;,&quot;webkitPerspectiveOriginX&quot;:&quot;&quot;,&quot;webkitPerspectiveOriginY&quot;:&quot;&quot;,&quot;webkitPrintColorAdjust&quot;:&quot;&quot;,&quot;webkitRtlOrdering&quot;:&quot;&quot;,&quot;webkitRubyPosition&quot;:&quot;&quot;,&quot;webkitShapeImageThreshold&quot;:&quot;&quot;,&quot;webkitShapeMargin&quot;:&quot;&quot;,&quot;webkitShapeOutside&quot;:&quot;&quot;,&quot;webkitTapHighlightColor&quot;:&quot;&quot;,&quot;webkitTextCombine&quot;:&quot;&quot;,&quot;webkitTextDecorationsInEffect&quot;:&quot;&quot;,&quot;webkitTextEmphasis&quot;:&quot;&quot;,&quot;webkitTextEmphasisColor&quot;:&quot;&quot;,&quot;webkitTextEmphasisPosition&quot;:&quot;&quot;,&quot;webkitTextEmphasisStyle&quot;:&quot;&quot;,&quot;webkitTextFillColor&quot;:&quot;&quot;,&quot;webkitTextOrientation&quot;:&quot;&quot;,&quot;webkitTextSecurity&quot;:&quot;&quot;,&quot;webkitTextSizeAdjust&quot;:&quot;&quot;,&quot;webkitTextStroke&quot;:&quot;&quot;,&quot;webkitTextStrokeColor&quot;:&quot;&quot;,&quot;webkitTextStrokeWidth&quot;:&quot;&quot;,&quot;webkitTransform&quot;:&quot;&quot;,&quot;webkitTransformOrigin&quot;:&quot;&quot;,&quot;webkitTransformOriginX&quot;:&quot;&quot;,&quot;webkitTransformOriginY&quot;:&quot;&quot;,&quot;webkitTransformOriginZ&quot;:&quot;&quot;,&quot;webkitTransformStyle&quot;:&quot;&quot;,&quot;webkitTransition&quot;:&quot;&quot;,&quot;webkitTransitionDelay&quot;:&quot;&quot;,&quot;webkitTransitionDuration&quot;:&quot;&quot;,&quot;webkitTransitionProperty&quot;:&quot;&quot;,&quot;webkitTransitionTimingFunction&quot;:&quot;&quot;,&quot;webkitUserDrag&quot;:&quot;&quot;,&quot;webkitUserModify&quot;:&quot;&quot;,&quot;webkitUserSelect&quot;:&quot;&quot;,&quot;webkitWritingMode&quot;:&quot;&quot;,&quot;whiteSpace&quot;:&quot;&quot;,&quot;widows&quot;:&quot;&quot;,&quot;width&quot;:&quot;&quot;,&quot;willChange&quot;:&quot;&quot;,&quot;wordBreak&quot;:&quot;&quot;,&quot;wordSpacing&quot;:&quot;&quot;,&quot;wordWrap&quot;:&quot;&quot;,&quot;writingMode&quot;:&quot;&quot;,&quot;x&quot;:&quot;&quot;,&quot;y&quot;:&quot;&quot;,&quot;zIndex&quot;:&quot;&quot;,&quot;zoom&quot;:&quot;&quot;}" />
+          </attribute>
+          <attribute name="wTabIndex">
+            <ProcessValue datatype="number" value="-1" />
+          </attribute>
+          <attribute name="wInputType">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wAccessKey">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wInnerText">
+            <ProcessValue datatype="text" value="1,943.23" />
+          </attribute>
+          <attribute name="wSource">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wTargetAddress">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wAlt">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPattern">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wRel">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wLinkTarget">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPlaceholder">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+        </attributes>
+      </element>
+      <type>Application</type>
+      <basetype>Application</basetype>
+      <datatype>unknown</datatype>
+      <diagnose>False</diagnose>
+    </element>
+    <apptypeinfo>
+      <id>BrowserLaunch</id>
+      <parameters>
+        <parameter>
+          <name>Path</name>
+          <value>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</value>
+        </parameter>
+        <parameter>
+          <name>CommandLineParams</name>
+          <value>https://www.xe.com/currencyconverter/convert/?Amount=1&amp;From=EUR&amp;To=INR</value>
+        </parameter>
+        <parameter>
+          <name>ProcessMode</name>
+          <value>Internal</value>
+        </parameter>
+        <parameter>
+          <name>ExternalProcessTimeout</name>
+          <value>0</value>
+        </parameter>
+      </parameters>
+    </apptypeinfo>
+  </appdef>
+  <view>
+    <camerax>0</camerax>
+    <cameray>0</cameray>
+    <zoom version="2">1.25</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <subsheet subsheetid="e2947400-336f-4fbe-9fcb-4f27199a8252" type="CleanUp" published="True">
+    <name>Clean Up</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="998bac25-ab75-46db-87cf-3fc1c5902713" type="Normal" published="False">
+    <name>Launch Website</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="d61b85ad-c906-4095-9fd0-ff8a700f0bd2" type="Normal" published="False">
+    <name>Read From Excel</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>-36</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="a55cb749-60f7-478d-bb92-16c4cd3528f1" type="Normal" published="False">
+    <name>INR Values</name>
+    <view>
+      <camerax>-178</camerax>
+      <cameray>-207</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="494b0f4b-c63b-4346-af0c-4993371cd287" type="Normal" published="False">
+    <name>Write Into Excel</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>-21</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <stage stageid="b3089dd3-a843-4ac8-821b-5f6a73432fc6" name="Start" type="Start">
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>4180bf0e-3e2b-4a02-b4f3-68f7109a009a</onsuccess>
+  </stage>
+  <stage stageid="4180bf0e-3e2b-4a02-b4f3-68f7109a009a" name="End" type="End">
+    <loginhibit />
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="1cc31551-e63a-4e7c-bb89-05beecc909a2" name="Stage1" type="ProcessInfo">
+    <display x="-360" y="-135" w="150" h="90" />
+    <references>
+      <reference>System.dll</reference>
+      <reference>System.Data.dll</reference>
+      <reference>System.Xml.dll</reference>
+      <reference>System.Drawing.dll</reference>
+    </references>
+    <imports>
+      <import>System</import>
+      <import>System.Drawing</import>
+      <import>System.Data</import>
+    </imports>
+    <language>visualbasic</language>
+    <globalcode><![CDATA[]]></globalcode>
+    <code><![CDATA[]]></code>
+  </stage>
+  <stage stageid="62114b60-4d18-4d64-ad5c-2b9251aeed29" name="Clean Up" type="SubSheetInfo">
+    <subsheetid>e2947400-336f-4fbe-9fcb-4f27199a8252</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="89686eac-8e2a-4977-b234-734854e303dc" name="Start" type="Start">
+    <subsheetid>e2947400-336f-4fbe-9fcb-4f27199a8252</subsheetid>
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>7f27b2e1-36f3-442c-a56b-c59028dfdafb</onsuccess>
+  </stage>
+  <stage stageid="7f27b2e1-36f3-442c-a56b-c59028dfdafb" name="End" type="End">
+    <subsheetid>e2947400-336f-4fbe-9fcb-4f27199a8252</subsheetid>
+    <loginhibit />
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="4c39b7ca-1600-471b-b629-6e2191a7a254" name="Launch Website" type="SubSheetInfo">
+    <subsheetid>998bac25-ab75-46db-87cf-3fc1c5902713</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="a329e000-745d-47e3-a9f0-3ecc02a02a78" name="Start" type="Start">
+    <subsheetid>998bac25-ab75-46db-87cf-3fc1c5902713</subsheetid>
+    <loginhibit />
+    <display x="-15" y="-135" />
+    <onsuccess>a535c15e-9705-4562-8a25-f7b7fef2fdae</onsuccess>
+  </stage>
+  <stage stageid="c509d512-4cde-4f1f-89d3-36de4376fc3a" name="End" type="End">
+    <subsheetid>998bac25-ab75-46db-87cf-3fc1c5902713</subsheetid>
+    <loginhibit />
+    <display x="-15" y="60" />
+  </stage>
+  <stage stageid="c841028d-5bb5-4e43-9efb-bf054fb77b2e" name="" type="Note">
+    <subsheetid>e2947400-336f-4fbe-9fcb-4f27199a8252</subsheetid>
+    <narrative>Clean Up Page
+
+This is an optional page where you might choose to perform some finalisation (or "cleanup") tasks as your business object is closed down.
+
+The cleanup action will be called automatically immediately after closing your business object at the end of a business process.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than before the disposal of the business object.</narrative>
+    <display x="-180" y="60" w="180" h="230" />
+  </stage>
+  <stage stageid="54dd9697-ba86-42f6-a104-fe650299d260" name="" type="Note">
+    <narrative>Initialise Page
+
+This is an optional page where you might choose to perform some initialisation tasks after your business object is loaded.
+
+The initialise action will be called automatically immediately after loading your business object.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than after the creation of the object.</narrative>
+    <display x="-345" y="30" w="180" h="230" />
+  </stage>
+  <stage stageid="a535c15e-9705-4562-8a25-f7b7fef2fdae" name="Launch Site" type="Navigate">
+    <subsheetid>998bac25-ab75-46db-87cf-3fc1c5902713</subsheetid>
+    <loginhibit />
+    <display x="-15" y="-90" />
+    <onsuccess>abe66610-f947-4633-80aa-6052d2299139</onsuccess>
+    <step>
+      <element id="29b9818c-0ad4-426b-9aa6-4831bf0a2b6e" />
+      <action>
+        <id>Launch</id>
+        <arguments>
+          <argument>
+            <id>Path</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>CommandLineParams</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>ProcessMode</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+        <outputs>
+          <output>
+            <id>trackingid</id>
+            <value>
+            </value>
+          </output>
+        </outputs>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="2669424c-2e35-4fd8-b75d-51ee191325c2" name="Time Out1" type="WaitEnd">
+    <subsheetid>998bac25-ab75-46db-87cf-3fc1c5902713</subsheetid>
+    <loginhibit />
+    <display x="-15" y="15" w="30" h="30" />
+    <onsuccess>c509d512-4cde-4f1f-89d3-36de4376fc3a</onsuccess>
+    <groupid>803093b8-8ca7-4c32-9ac5-3a62d5619864</groupid>
+  </stage>
+  <stage stageid="abe66610-f947-4633-80aa-6052d2299139" name="Wait1" type="WaitStart">
+    <subsheetid>998bac25-ab75-46db-87cf-3fc1c5902713</subsheetid>
+    <loginhibit />
+    <display x="-15" y="-45" w="30" h="30" />
+    <groupid>803093b8-8ca7-4c32-9ac5-3a62d5619864</groupid>
+    <choices />
+    <timeout>5</timeout>
+  </stage>
+  <stage stageid="3ba71923-db53-429c-a7d3-ee60cbcc7165" name="Read From Excel" type="SubSheetInfo">
+    <subsheetid>d61b85ad-c906-4095-9fd0-ff8a700f0bd2</subsheetid>
+    <display x="-330" y="-135" w="150" h="90" />
+  </stage>
+  <stage stageid="6a6f82f3-ef70-418c-b967-ae85d43967c5" name="Start" type="Start">
+    <subsheetid>d61b85ad-c906-4095-9fd0-ff8a700f0bd2</subsheetid>
+    <loginhibit />
+    <display x="-30" y="-150" />
+    <onsuccess>c6d1194e-bce6-4468-a464-92fb42c29e91</onsuccess>
+  </stage>
+  <stage stageid="291d8b3a-1524-42f3-aaa4-91c855338dd1" name="End" type="End">
+    <subsheetid>d61b85ad-c906-4095-9fd0-ff8a700f0bd2</subsheetid>
+    <loginhibit />
+    <display x="-30" y="75" />
+  </stage>
+  <stage stageid="c6d1194e-bce6-4468-a464-92fb42c29e91" name="MS Excel VBO::Create Instance" type="Action">
+    <subsheetid>d61b85ad-c906-4095-9fd0-ff8a700f0bd2</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="-30" y="-105" />
+    <inputs>
+      <input type="flag" name="Enable Events" friendlyname="Enable Events" narrative="Flag to indicate that events should be enabled / disabled on the attached instance - defaulted to True" expr="" />
+    </inputs>
+    <outputs>
+      <output type="number" name="handle" friendlyname="handle" narrative="An integer which can be used to identify the created instance in subsequent actions" stage="handle" />
+    </outputs>
+    <onsuccess>e0fa6179-747d-45c0-b1a9-dfce037d4a30</onsuccess>
+    <resource object="MS Excel VBO" action="Create Instance" />
+  </stage>
+  <stage stageid="e0fa6179-747d-45c0-b1a9-dfce037d4a30" name="MS Excel VBO::Open Workbook" type="Action">
+    <subsheetid>d61b85ad-c906-4095-9fd0-ff8a700f0bd2</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="-30" y="-60" />
+    <inputs>
+      <input type="number" name="handle" friendlyname="handle" narrative="The integer handle identifying the instance on which the required workbook should be opened. The default of zero indicates the currently active instance." expr="[handle]" />
+      <input type="text" name="File name" friendlyname="File name" narrative="The path and name of the file which should be opened." expr="&quot;C:\Users\lenovo\Desktop\Currency.xlsx&quot;" />
+    </inputs>
+    <outputs>
+      <output type="text" name="Workbook Name" friendlyname="Workbook Name" narrative="The name used by Excel to identify the workbook - usually this is the file name (without the path)." stage="Workbook Name" />
+    </outputs>
+    <onsuccess>5e511265-6785-469f-8c67-00179de2668f</onsuccess>
+    <resource object="MS Excel VBO" action="Open Workbook" />
+  </stage>
+  <stage stageid="2ae1fdad-cd94-4059-9ecb-de549c6d2c76" name="handle" type="Data">
+    <subsheetid>d61b85ad-c906-4095-9fd0-ff8a700f0bd2</subsheetid>
+    <display x="45" y="-105" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="0d8777d1-4337-4e6a-8f1a-3e629a5c0d14" name="Workbook Name" type="Data">
+    <subsheetid>d61b85ad-c906-4095-9fd0-ff8a700f0bd2</subsheetid>
+    <display x="45" y="-60" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="5e511265-6785-469f-8c67-00179de2668f" name="MS Excel VBO::Get Worksheet As Collection" type="Action">
+    <subsheetid>d61b85ad-c906-4095-9fd0-ff8a700f0bd2</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="-30" y="-15" />
+    <inputs>
+      <input type="number" name="handle" friendlyname="handle" narrative="The integer handle identifying the instance on which the worksheet which should be retrieved resides. The default of zero indicates the currently active instance." expr="[handle]" />
+      <input type="text" name="Workbook Name" friendlyname="Workbook Name" narrative="The name of the workbook which contains the sheet required. The default empty text indicates the currently active workbook on the specified instance." expr="[Workbook Name]" />
+      <input type="text" name="Worksheet Name" friendlyname="Worksheet Name" narrative="The name of the worksheet within the specified workbook which should be written to a collection. The default empty text indicates the currently active worksheet within the specified workbook." expr="&quot;Sheet1&quot;" />
+    </inputs>
+    <outputs>
+      <output type="collection" name="Data" friendlyname="Data" narrative="The collection containing the data from the specified worksheet - the column IDs will be gleaned from the first row on the sheet being retrieved." stage="Currency Data" />
+    </outputs>
+    <onsuccess>3f253b95-9c94-4d30-9f83-94055ad1a831</onsuccess>
+    <resource object="MS Excel VBO" action="Get Worksheet As Collection" />
+  </stage>
+  <stage stageid="d81a9a84-c56f-4a55-a225-c0f784b316e1" name="Currency Data" type="Collection">
+    <subsheetid>d61b85ad-c906-4095-9fd0-ff8a700f0bd2</subsheetid>
+    <display x="45" y="-15" />
+    <datatype>collection</datatype>
+    <alwaysinit />
+    <collectioninfo>
+      <field name="Amount" type="number" />
+      <field name="Code" type="text" />
+      <field name="INR" type="number" />
+    </collectioninfo>
+  </stage>
+  <stage stageid="3f253b95-9c94-4d30-9f83-94055ad1a831" name="MS Excel VBO::Close Instance" type="Action">
+    <subsheetid>d61b85ad-c906-4095-9fd0-ff8a700f0bd2</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="-30" y="30" />
+    <inputs>
+      <input type="number" name="handle" friendlyname="handle" narrative="The integer handle identifying the instance to be closed. Zero indicates the currently active instance." expr="[handle]" />
+      <input type="flag" name="Save Changes" friendlyname="Save Changes" narrative="True to save the changes to the open workbooks on the instance, False to discard any changes. Default is False." expr="True" />
+    </inputs>
+    <onsuccess>291d8b3a-1524-42f3-aaa4-91c855338dd1</onsuccess>
+    <resource object="MS Excel VBO" action="Close Instance" />
+  </stage>
+  <stage stageid="5f2c5bbf-04a1-4a6c-a6d9-41f5013d823e" name="INR Values" type="SubSheetInfo">
+    <subsheetid>a55cb749-60f7-478d-bb92-16c4cd3528f1</subsheetid>
+    <display x="-375" y="-225" w="150" h="90" />
+  </stage>
+  <stage stageid="edc889e3-3e23-4335-8117-67bdc1282a91" name="Write Into Excel" type="SubSheetInfo">
+    <subsheetid>494b0f4b-c63b-4346-af0c-4993371cd287</subsheetid>
+    <display x="-390" y="-150" w="150" h="90" />
+  </stage>
+  <stage stageid="e532e2a5-00a8-430d-abe4-6d194c36baba" name="Start" type="Start">
+    <subsheetid>494b0f4b-c63b-4346-af0c-4993371cd287</subsheetid>
+    <loginhibit />
+    <display x="-195" y="-180" />
+    <onsuccess>2e1381e2-35fc-461c-a1f0-369db4dceeac</onsuccess>
+  </stage>
+  <stage stageid="c78c32ce-17d8-4901-9b4c-75ee663bd41f" name="End" type="End">
+    <subsheetid>494b0f4b-c63b-4346-af0c-4993371cd287</subsheetid>
+    <loginhibit />
+    <display x="-195" y="120" />
+  </stage>
+  <stage stageid="2e1381e2-35fc-461c-a1f0-369db4dceeac" name="MS Excel VBO::Create Instance" type="Action">
+    <subsheetid>494b0f4b-c63b-4346-af0c-4993371cd287</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="-195" y="-120" />
+    <inputs>
+      <input type="flag" name="Enable Events" friendlyname="Enable Events" narrative="Flag to indicate that events should be enabled / disabled on the attached instance - defaulted to True" expr="" />
+    </inputs>
+    <outputs>
+      <output type="number" name="handle" friendlyname="handle" narrative="An integer which can be used to identify the created instance in subsequent actions" stage="handle" />
+    </outputs>
+    <onsuccess>914a19da-b61c-41f0-a3e3-eec90b66157b</onsuccess>
+    <resource object="MS Excel VBO" action="Create Instance" />
+  </stage>
+  <stage stageid="914a19da-b61c-41f0-a3e3-eec90b66157b" name="MS Excel VBO::Open Workbook" type="Action">
+    <subsheetid>494b0f4b-c63b-4346-af0c-4993371cd287</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="-195" y="-60" />
+    <inputs>
+      <input type="number" name="handle" friendlyname="handle" narrative="The integer handle identifying the instance on which the required workbook should be opened. The default of zero indicates the currently active instance." expr="[handle]" />
+      <input type="text" name="File name" friendlyname="File name" narrative="The path and name of the file which should be opened." expr="&quot;C:\Users\lenovo\Desktop\Currency.xlsx&quot;&#xA;" />
+    </inputs>
+    <outputs>
+      <output type="text" name="Workbook Name" friendlyname="Workbook Name" narrative="The name used by Excel to identify the workbook - usually this is the file name (without the path)." stage="Workbook Name" />
+    </outputs>
+    <onsuccess>9c424941-772d-41e0-8f09-868b205f06a3</onsuccess>
+    <resource object="MS Excel VBO" action="Open Workbook" />
+  </stage>
+  <stage stageid="aa9556a2-a132-4b49-bb49-1381a21b6563" name="handle" type="Data">
+    <subsheetid>494b0f4b-c63b-4346-af0c-4993371cd287</subsheetid>
+    <display x="-60" y="-165" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="2ece6d20-ad7f-4173-bcd2-9db2903f8c3a" name="Workbook Name" type="Data">
+    <subsheetid>494b0f4b-c63b-4346-af0c-4993371cd287</subsheetid>
+    <display x="-60" y="-105" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="9c424941-772d-41e0-8f09-868b205f06a3" name="MS Excel VBO::Write Collection" type="Action">
+    <subsheetid>494b0f4b-c63b-4346-af0c-4993371cd287</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="-195" y="0" />
+    <inputs>
+      <input type="number" name="handle" friendlyname="handle" narrative="The integer handle identifying the instance on which the specified collection should be written. The default of zero indicates the currently active instance." expr="[handle]" />
+      <input type="text" name="Workbook Name" friendlyname="Workbook Name" narrative="The name of the workbook within which the data should be written. The default empty value indicates the current workbook within the specified instance." expr="[Workbook Name]" />
+      <input type="collection" name="Collection" friendlyname="Collection" narrative="The collection containing the data which should be written to the worksheet." expr="[Currency Data]" />
+      <input type="text" name="Worksheet Name" friendlyname="Worksheet Name" narrative="The name of the worksheet on which the given data should be written. The default empty value indicates the current sheet within the specified workbook." expr="&quot;Sheet1&quot;" />
+      <input type="text" name="Cell Reference" friendlyname="Cell Reference" narrative="The reference at which the collection should be written." expr="&quot;A1&quot;" />
+      <input type="flag" name="Include Column Names" friendlyname="Include Column Names" narrative="True to indicate that the column names from the collection should be written out as the first row; False to ignore the column names and just write out the data." expr="True" />
+    </inputs>
+    <onsuccess>be216b2e-92c6-4e85-8c85-693780c6e762</onsuccess>
+    <resource object="MS Excel VBO" action="Write Collection" />
+  </stage>
+  <stage stageid="be216b2e-92c6-4e85-8c85-693780c6e762" name="MS Excel VBO::Close Instance" type="Action">
+    <subsheetid>494b0f4b-c63b-4346-af0c-4993371cd287</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="-195" y="60" />
+    <inputs>
+      <input type="number" name="handle" friendlyname="handle" narrative="The integer handle identifying the instance to be closed. Zero indicates the currently active instance." expr="[handle]" />
+      <input type="flag" name="Save Changes" friendlyname="Save Changes" narrative="True to save the changes to the open workbooks on the instance, False to discard any changes. Default is False." expr="True" />
+    </inputs>
+    <onsuccess>c78c32ce-17d8-4901-9b4c-75ee663bd41f</onsuccess>
+    <resource object="MS Excel VBO" action="Close Instance" />
+  </stage>
+  <stage stageid="b5eac344-75cc-4120-ab65-06731c586f46" name="Start" type="Start">
+    <subsheetid>a55cb749-60f7-478d-bb92-16c4cd3528f1</subsheetid>
+    <loginhibit />
+    <display x="-210" y="-315" />
+    <onsuccess>bdaa8ce0-61af-41d5-8cd4-a10586752b43</onsuccess>
+  </stage>
+  <stage stageid="8465b607-8df0-4bc3-b57a-1d899669e661" name="End" type="End">
+    <subsheetid>a55cb749-60f7-478d-bb92-16c4cd3528f1</subsheetid>
+    <loginhibit />
+    <display x="120" y="-105" />
+  </stage>
+  <stage stageid="4b3e106d-be9f-4558-9ae5-36bd3bc45a6a" name="Loop Currency Data" type="LoopStart">
+    <subsheetid>a55cb749-60f7-478d-bb92-16c4cd3528f1</subsheetid>
+    <loginhibit />
+    <display x="-210" y="-225" />
+    <onsuccess>d21b3f2c-7c16-4623-9feb-811da7404760</onsuccess>
+    <groupid>8c758218-750e-43b9-aa0b-e2749af33497</groupid>
+    <looptype>ForEach</looptype>
+    <loopdata>Currency Data</loopdata>
+  </stage>
+  <stage stageid="57f066df-0fce-4367-b639-d6402b0bd0b4" name="Loop Currency Data" type="LoopEnd">
+    <subsheetid>a55cb749-60f7-478d-bb92-16c4cd3528f1</subsheetid>
+    <loginhibit />
+    <display x="120" y="-225" />
+    <onsuccess>8465b607-8df0-4bc3-b57a-1d899669e661</onsuccess>
+    <groupid>8c758218-750e-43b9-aa0b-e2749af33497</groupid>
+  </stage>
+  <stage stageid="24951f03-6d30-4e8c-bc4e-b70dd3f1590b" name="Submit Data" type="Navigate">
+    <subsheetid>a55cb749-60f7-478d-bb92-16c4cd3528f1</subsheetid>
+    <loginhibit />
+    <display x="-45" y="-315" />
+    <onsuccess>1c415f67-6aa1-4d91-81e8-3cf2f2fae825</onsuccess>
+    <step>
+      <element id="82f5a4a4-3eac-4cd5-adf6-f038aa52c95d" />
+      <action>
+        <id>WebClick</id>
+        <arguments>
+          <argument>
+            <id>trackingid</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="2b35eea9-b26e-4c4f-8900-e156d298e317" name="Read Result" type="Read">
+    <subsheetid>a55cb749-60f7-478d-bb92-16c4cd3528f1</subsheetid>
+    <loginhibit />
+    <display x="120" y="-315" />
+    <onsuccess>57f066df-0fce-4367-b639-d6402b0bd0b4</onsuccess>
+    <step stage="Currency Data.INR Amount">
+      <element id="6b702d17-b03f-4563-ba3c-8d5e8427162b" />
+      <action>
+        <id>WebGetValue</id>
+        <arguments>
+          <argument>
+            <id>trackingid</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="df3170e7-99a0-433b-be3c-5c9be37ab5ec" name="Time Out1" type="WaitEnd">
+    <subsheetid>a55cb749-60f7-478d-bb92-16c4cd3528f1</subsheetid>
+    <loginhibit />
+    <display x="-45" y="-105" w="30" h="30" />
+    <onsuccess>07345c87-ae14-4187-ae49-626d7662456c</onsuccess>
+    <groupid>6f19d9fb-3011-4ba7-a633-ec727d63fc7a</groupid>
+  </stage>
+  <stage stageid="1c415f67-6aa1-4d91-81e8-3cf2f2fae825" name="Wait1" type="WaitStart">
+    <subsheetid>a55cb749-60f7-478d-bb92-16c4cd3528f1</subsheetid>
+    <loginhibit />
+    <display x="-45" y="-225" w="30" h="30" />
+    <groupid>6f19d9fb-3011-4ba7-a633-ec727d63fc7a</groupid>
+    <choices />
+    <timeout>5</timeout>
+  </stage>
+  <stage stageid="d21b3f2c-7c16-4623-9feb-811da7404760" name="Write Amount" type="Write">
+    <subsheetid>a55cb749-60f7-478d-bb92-16c4cd3528f1</subsheetid>
+    <loginhibit />
+    <display x="-210" y="-165" />
+    <onsuccess>e0840233-3be1-47d5-b1e7-7266eeb13261</onsuccess>
+    <step expr="[Currency Data.Amount]">
+      <element id="308ab60e-1c69-4142-bf8a-4cc2b739cdc6" />
+      <action>
+        <id>WebWrite</id>
+        <arguments>
+          <argument>
+            <id>trackingid</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="cb0d49d6-a94a-41ce-a4b9-075e84d1de69" name="Anchor1" type="Anchor">
+    <subsheetid>a55cb749-60f7-478d-bb92-16c4cd3528f1</subsheetid>
+    <loginhibit />
+    <display x="-135" y="-105" w="10" h="10" />
+    <onsuccess>938374dd-562d-4ac0-aa72-18f13976d89a</onsuccess>
+  </stage>
+  <stage stageid="938374dd-562d-4ac0-aa72-18f13976d89a" name="Anchor2" type="Anchor">
+    <subsheetid>a55cb749-60f7-478d-bb92-16c4cd3528f1</subsheetid>
+    <loginhibit />
+    <display x="-135" y="-315" w="10" h="10" />
+    <onsuccess>24951f03-6d30-4e8c-bc4e-b70dd3f1590b</onsuccess>
+  </stage>
+  <stage stageid="73df8a70-ae6b-472f-9a7a-923aa1436027" name="Anchor3" type="Anchor">
+    <subsheetid>a55cb749-60f7-478d-bb92-16c4cd3528f1</subsheetid>
+    <loginhibit />
+    <display x="45" y="-315" w="10" h="10" />
+    <onsuccess>2b35eea9-b26e-4c4f-8900-e156d298e317</onsuccess>
+  </stage>
+  <stage stageid="07345c87-ae14-4187-ae49-626d7662456c" name="Anchor4" type="Anchor">
+    <subsheetid>a55cb749-60f7-478d-bb92-16c4cd3528f1</subsheetid>
+    <loginhibit />
+    <display x="45" y="-105" w="10" h="10" />
+    <onsuccess>73df8a70-ae6b-472f-9a7a-923aa1436027</onsuccess>
+  </stage>
+  <stage stageid="bdaa8ce0-61af-41d5-8cd4-a10586752b43" name="Read From Excel" type="SubSheet">
+    <subsheetid>a55cb749-60f7-478d-bb92-16c4cd3528f1</subsheetid>
+    <loginhibit />
+    <display x="-210" y="-270" />
+    <onsuccess>4b3e106d-be9f-4558-9ae5-36bd3bc45a6a</onsuccess>
+    <processid>d61b85ad-c906-4095-9fd0-ff8a700f0bd2</processid>
+  </stage>
+  <stage stageid="e0840233-3be1-47d5-b1e7-7266eeb13261" name="Write Code" type="Write">
+    <subsheetid>a55cb749-60f7-478d-bb92-16c4cd3528f1</subsheetid>
+    <loginhibit />
+    <display x="-210" y="-105" />
+    <onsuccess>cb0d49d6-a94a-41ce-a4b9-075e84d1de69</onsuccess>
+    <step expr="[Currency Data.Code]">
+      <element id="0f051a3f-4096-4126-9685-b0321a5fec9a" />
+      <action>
+        <id>WebWrite</id>
+        <arguments>
+          <argument>
+            <id>trackingid</id>
+            <value>"{ENTER}"</value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+</process>
