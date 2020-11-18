@@ -1,0 +1,31 @@
+﻿<process name="Currency Converter Process" version="1.0" bpversion="6.9.0.26970" narrative="process of xe currency" byrefcollection="true" preferredid="a9c57ec6-3adf-4413-9adb-795e2381eb29">
+  <view>
+    <camerax>0</camerax>
+    <cameray>0</cameray>
+    <zoom version="2">1.25</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <stage stageid="62cadc34-40ad-4351-8451-de7c06410dd3" name="Start" type="Start">
+    <display x="15" y="-105" />
+    <onsuccess>ad2ae5d6-d628-40ab-8f56-43df26d7c5d9</onsuccess>
+  </stage>
+  <stage stageid="c6726f9a-eb0e-4af7-ac25-69160296be4d" name="End" type="End">
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="6536bd3b-4870-4524-97af-2df958cc6ded" name="Stage1" type="ProcessInfo">
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="ad2ae5d6-d628-40ab-8f56-43df26d7c5d9" name="Currency Converter::Launch Website" type="Action">
+    <loginhibit onsuccess="true" />
+    <display x="15" y="-60" />
+    <onsuccess>b62d61f5-551d-4bd9-93dd-0b2240af6fb5</onsuccess>
+    <resource object="Currency Converter" action="Launch Website" />
+  </stage>
+  <stage stageid="b62d61f5-551d-4bd9-93dd-0b2240af6fb5" name="Currency Converter::Launch Website" type="Action">
+    <loginhibit onsuccess="true" />
+    <display x="15" y="0" />
+    <onsuccess>c6726f9a-eb0e-4af7-ac25-69160296be4d</onsuccess>
+    <resource object="Currency Converter" action="Launch Website" />
+  </stage>
+</process>
